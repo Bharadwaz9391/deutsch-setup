@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Deutsch Setu 🇩🇪 ↔ తెలుగు
 
-## Getting Started
+Learn German step by step — explained in **Telugu script**, **Telugu in English letters** and **English** — with an AI speaking teacher.
 
-First, run the development server:
+> Working name. "Setu" (సేతు) = bridge: from your mother tongue to German.
+
+## Status — Day 1 (v0.1.0)
+
+| Day | Feature | Status |
+|-----|---------|--------|
+| Mon | Syllabus, tech stack, installable app (dashboard, A1 course map, settings) | ✅ |
+| Tue | Lesson screen + first AI-generated A1 lessons | ⏳ |
+| Wed | Audio: German pronunciation + explanations | ⏳ |
+| Thu | AI teacher voice conversation (Telugu/German, corrections, male/female) | ⏳ |
+| Fri | Daily role-plays + saved sessions | ⏳ |
+| Sat | Flashcards (spaced repetition) + lesson tests | ⏳ |
+| Sun | Daily plan, dashboard progress, final testing | ⏳ |
+
+## Tech stack
+
+| Layer | Choice | Why |
+|-------|--------|-----|
+| App | Next.js 16 (App Router) + TypeScript + Tailwind CSS | One codebase for phone and laptop; installable (PWA) |
+| Backend | Next.js API routes (`src/app/api`) | Keeps API keys on the server |
+| Hosting | Vercel (free Hobby plan for personal use) | Deploys automatically from GitHub, HTTPS included |
+| Storage | Browser storage (Day 1) → database with accounts later | Simple now, swappable later (`src/lib/settings.ts`) |
+| AI teacher | Gemini (audio in → text) | Understands mixed Telugu/German speech, low cost |
+| Voices | Google Cloud Text-to-Speech | German, Telugu and English voices, male and female |
+
+## Syllabus sources
+
+A1 is merged from three official references (topic areas only — all lesson content is original):
+
+1. **Goethe-Institut / telc — Start Deutsch 1** exam specification (topics and word groups)
+2. **BAMF integration-course curriculum** (fields of action for daily life in Germany)
+3. **DW Nicos Weg A1 / Ankommo** (lesson flow, pattern-based grammar)
+
+Teaching-style references: Learn German with Anja, Benjamin – Der Deutschlehrer, Easy German, german.net.
+
+## Run it on your laptop
+
+Requirements: Node.js 20 or newer.
 
 ```bash
+cd german-app
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deploy so it runs on your phone
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Push this folder to a new GitHub repository (e.g. `deutsch-setu`).
+2. Go to https://vercel.com → sign in with GitHub → **Add New → Project** → import the repository → **Deploy**.
+3. Open the Vercel URL on your Android phone in **Chrome** → menu ⋮ → **Add to Home screen / Install app**.
 
-## Learn More
+Every `git push` redeploys automatically.
 
-To learn more about Next.js, take a look at the following resources:
+## Project structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+src/
+  app/                 pages (Home, Course, Module, Speak, Settings) + manifest + API
+  components/          UI building blocks (TriText shows the 3 explanation modes)
+  content/a1/          A1 syllabus (16 modules, 64 lessons)
+  content/milestones.ts official A1 → C1 milestones
+  lib/                 types + settings storage
+public/                icons + service worker
+scripts/make_icons.py  regenerates the app icons
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Security notes
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- API keys only in `.env.local` (git-ignored) and Vercel environment variables.
+- Security headers set in `next.config.ts` (nosniff, no framing, strict referrer, permissions policy).
+- Set a hard monthly budget limit on every AI provider account.
