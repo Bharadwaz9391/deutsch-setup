@@ -1,0 +1,131 @@
+{
+  "engine": "windows",
+  "sampleRate": 24000,
+  "voices": {
+    "female": {
+      "voices": {
+        "de": "Microsoft Heera",
+        "te": "Microsoft Heera"
+      },
+      "tracks": {
+        "restaurant": {
+          "src": "/audio/ride/female/restaurant-6037eeeb4a.mp3",
+          "duration": 292.82,
+          "bytes": 1757232,
+          "cues": [
+            {
+              "id": "r1",
+              "start": 20.13
+            },
+            {
+              "id": "r2",
+              "start": 67.63
+            },
+            {
+              "id": "r3",
+              "start": 118.59
+            },
+            {
+              "id": "r4",
+              "start": 154.04
+            },
+            {
+              "id": "r5",
+              "start": 185.11
+            },
+            {
+              "id": "r6",
+              "start": 220.54
+            },
+            {
+              "id": "r7",
+              "start": 252.64
+            },
+            {
+              "id": "outro",
+              "start": 283.31
+            }
+          ]
+        },
+        "door": {
+          "src": "/audio/ride/female/door-a0cc51af58.mp3",
+          "duration": 242.29,
+          "bytes": 1454112,
+          "cues": [
+            {
+              "id": "d1",
+              "start": 19.41
+            },
+            {
+              "id": "d2",
+              "start": 53.91
+            },
+            {
+              "id": "d3",
+              "start": 76.08
+            },
+            {
+              "id": "d4",
+              "start": 105
+            },
+            {
+              "id": "d5",
+              "start": 140.86
+            },
+            {
+              "id": "d6",
+              "start": 173.3
+            },
+            {
+              "id": "d7",
+              "start": 209.6
+            },
+            {
+              "id": "outro",
+              "start": 232.77
+            }
+          ]
+        },
+        "problems": {
+          "src": "/audio/ride/female/problems-034ad67041.mp3",
+          "duration": 267.56,
+          "bytes": 1605744,
+          "cues": [
+            {
+              "id": "p1",
+              "start": 22.74
+            },
+            {
+              "id": "p2",
+              "start": 69.79
+            },
+            {
+              "id": "p3",
+              "start": 108.7
+            },
+            {
+              "id": "p4",
+              "start": 145.02
+            },
+            {
+              "id": "p5",
+              "start": 171.04
+            },
+            {
+              "id": "p6",
+              "start": 203.39
+            },
+            {
+              "id": "p7",
+              "start": 234.99
+            },
+            {
+              "id": "outro",
+              "start": 258.04
+            }
+          ]
+        }
+      }
+    }
+  }
+}

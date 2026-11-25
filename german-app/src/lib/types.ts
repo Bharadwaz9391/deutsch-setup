@@ -39,6 +39,44 @@ export type CourseModule = {
   };
 };
 
+/**
+ * One piece of a spoken explanation in Ride mode: either German (spoken by the
+ * German voice) or Telugu (spoken by the Telugu voice; `teLatn` is what the
+ * placeholder English-letter voice reads until real Telugu audio is generated).
+ */
+export type SpokenPart = { de: string } | { te: string; teLatn: string };
+
+/** A phrase taught in a Ride-mode audio lesson. */
+export type RidePhrase = {
+  id: string;
+  /** The German sentence */
+  de: string;
+  /** What it means */
+  meaning: Tri;
+  /** Where / when to use it */
+  where: Tri;
+  /** Why it is built this way (grammar or culture), shown on screen */
+  why?: Tri;
+  /** The same "why", split so German words are spoken by the German voice */
+  whyAudio?: SpokenPart[];
+};
+
+/** One audio lesson = one track in the Ride-mode player. */
+export type RideTrack = {
+  id: string;
+  titleDe: string;
+  title: Tri;
+  /** First sentence of the spoken intro (the "how it works" part is shared) */
+  intro: Tri;
+  phrases: RidePhrase[];
+};
+
+export type RidePack = {
+  id: string;
+  title: Tri;
+  tracks: RideTrack[];
+};
+
 export type Settings = {
   name: string;
   modes: ExplanationMode[];
