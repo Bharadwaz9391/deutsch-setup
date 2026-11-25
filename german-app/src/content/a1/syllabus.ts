@@ -1,0 +1,545 @@
+import type { CourseModule } from "@/lib/types";
+
+/**
+ * A1 syllabus — merged from:
+ *  1. Goethe-Institut / telc "Start Deutsch 1" exam specification (topic areas + word groups)
+ *  2. BAMF "Rahmencurriculum für Integrationskurse" (fields of action for life in Germany)
+ *  3. DW "Nicos Weg" A1 and Ankommo A1 (lesson flow, pattern-based grammar)
+ * Teaching-style references: Learn German with Anja, Benjamin – Der Deutschlehrer,
+ * Easy German (real spoken German), german.net (graded practice).
+ *
+ * All text here is original. Only topic areas (not content) are taken from the references.
+ * Telugu texts: please review and correct — the learner is a native speaker.
+ */
+export const A1_SYLLABUS: CourseModule[] = [
+  {
+    id: "m00-sounds",
+    number: 0,
+    part: "A1.1",
+    titleDe: "Hallo, Deutsch!",
+    title: {
+      en: "German sounds and the alphabet",
+      te: "జర్మన్ ఉచ్చారణ మరియు అక్షరమాల",
+      teLatn: "German uccharana mariyu aksharamaala",
+    },
+    summary: {
+      en: "Learn the German alphabet, the special letters ä, ö, ü, ß and the sounds that are new for Telugu speakers.",
+      te: "జర్మన్ అక్షరమాల, ä, ö, ü, ß లాంటి ప్రత్యేక అక్షరాలు, తెలుగు వాళ్ళకి కొత్తగా ఉండే శబ్దాలు నేర్చుకుందాం.",
+      teLatn: "German aksharamaala, ä, ö, ü, ß laanti pratyeka aksharaalu, Telugu vaallaki kothaga unde shabdaalu nerchukundaam.",
+    },
+    canDo: [
+      "Spell your name and email address",
+      "Say the numbers 0–20",
+      "Ask someone to repeat or speak slowly",
+    ],
+    lessons: [
+      { id: "l00-1", titleDe: "Das Alphabet", titleEn: "The alphabet and spelling your name" },
+      { id: "l00-2", titleDe: "Umlaute: ä, ö, ü und ß", titleEn: "Umlauts and the sharp s" },
+      { id: "l00-3", titleDe: "Schwierige Laute: ch, r, z, w, v", titleEn: "Tricky sounds for Telugu speakers" },
+      { id: "l00-4", titleDe: "Zahlen von 0 bis 20", titleEn: "Numbers 0–20" },
+    ],
+    grammar: [
+      "Spelling rules: ei sounds like 'ai', ie like 'ee'",
+      "w = 'v', v = 'f', z = 'ts', j = 'y'",
+    ],
+    vocabulary: ["Alphabet", "Numbers 0–20", "Classroom phrases: Wie bitte? Langsam, bitte."],
+    roleplay: {
+      situation: {
+        en: "Spelling your name at a reception desk",
+        te: "రిసెప్షన్‌లో మీ పేరు స్పెల్ చేయడం",
+        teLatn: "Reception lo mee peru spell cheyadam",
+      },
+      partnerDe: "Rezeptionistin",
+    },
+    hours: 6,
+    sources: { goethe: ["Person: Name", "Zahlen"], bamf: ["Unterricht"] },
+  },
+  {
+    id: "m01-hallo",
+    number: 1,
+    part: "A1.1",
+    titleDe: "Hallo! Ich bin …",
+    title: {
+      en: "Greetings and introducing yourself",
+      te: "పలకరింపులు, మిమ్మల్ని మీరు పరిచయం చేసుకోవడం",
+      teLatn: "Palakarimpulu, mimmalni meeru parichayam chesukovadam",
+    },
+    summary: {
+      en: "Say hello and goodbye, introduce yourself, and know when to use 'du' (friends) and 'Sie' (formal).",
+      te: "హలో, బై చెప్పడం, మీ పరిచయం చెప్పడం, 'du' (స్నేహితులతో) మరియు 'Sie' (గౌరవంగా) ఎప్పుడు వాడాలో తెలుసుకోవడం.",
+      teLatn: "Hello, bye cheppadam, mee parichayam cheppadam, 'du' (snehitulatho) mariyu 'Sie' (gouravamga) eppudu vaadalo telusukovadam.",
+    },
+    canDo: [
+      "Greet people formally and informally",
+      "Say your name and ask for someone's name",
+      "Ask how someone is and answer",
+    ],
+    lessons: [
+      { id: "l01-1", titleDe: "Begrüßen und verabschieden", titleEn: "Hello and goodbye" },
+      { id: "l01-2", titleDe: "Ich heiße …", titleEn: "My name is …" },
+      { id: "l01-3", titleDe: "Du oder Sie?", titleEn: "Informal or formal 'you'" },
+      { id: "l01-4", titleDe: "Wie geht's?", titleEn: "How are you?" },
+    ],
+    grammar: ["Personal pronouns: ich, du, er, sie, es, wir, ihr, Sie", "The verb sein (to be)", "The verb heißen", "W-questions: Wie? Wer?"],
+    vocabulary: ["Greetings by time of day", "Answers to 'Wie geht's?'"],
+    roleplay: {
+      situation: {
+        en: "Meeting your new neighbour in the stairwell",
+        te: "మెట్ల దగ్గర మీ కొత్త పక్కింటి వాళ్ళని కలవడం",
+        teLatn: "Metla daggara mee kotha pakkinti vaallani kalavadam",
+      },
+      partnerDe: "Nachbarin",
+    },
+    hours: 8,
+    sources: { goethe: ["Person", "Persönliche Beziehungen"], bamf: ["Kontakte knüpfen (übergreifend)"] },
+  },
+  {
+    id: "m02-woher",
+    number: 2,
+    part: "A1.1",
+    titleDe: "Woher kommst du?",
+    title: {
+      en: "Where are you from? Countries and languages",
+      te: "మీరు ఎక్కడి నుంచి వచ్చారు? దేశాలు, భాషలు",
+      teLatn: "Meeru ekkadi nunchi vachaaru? Deshaalu, bhaashalu",
+    },
+    summary: {
+      en: "Talk about where you come from, where you live and which languages you speak. Count to 100.",
+      te: "మీరు ఎక్కడి నుంచి వచ్చారు, ఎక్కడ ఉంటున్నారు, ఏ భాషలు మాట్లాడతారు అని చెప్పడం. 100 వరకు లెక్కపెట్టడం.",
+      teLatn: "Meeru ekkadi nunchi vachaaru, ekkada untunnaru, ee bhaashalu maatladataaru ani cheppadam. 100 varaku lekkapettadam.",
+    },
+    canDo: ["Say your country and city", "Say which languages you speak", "Give your phone number"],
+    lessons: [
+      { id: "l02-1", titleDe: "Ich komme aus Indien", titleEn: "I come from India" },
+      { id: "l02-2", titleDe: "Ich wohne in Berlin", titleEn: "I live in Berlin" },
+      { id: "l02-3", titleDe: "Sprachen", titleEn: "Languages" },
+      { id: "l02-4", titleDe: "Zahlen bis 100 und Telefonnummern", titleEn: "Numbers to 100 and phone numbers" },
+    ],
+    grammar: ["Present tense of regular verbs: kommen, wohnen", "The verb is always in position 2", "Yes/no questions", "Prepositions aus and in"],
+    vocabulary: ["Countries and nationalities", "Languages", "Numbers 21–100"],
+    roleplay: {
+      situation: {
+        en: "Small talk with a classmate at the language course",
+        te: "భాషా కోర్సులో క్లాస్‌మేట్‌తో చిన్న సంభాషణ",
+        teLatn: "Bhaasha course lo classmate tho chinna sambhaashana",
+      },
+      partnerDe: "Kursteilnehmer",
+    },
+    hours: 8,
+    sources: { goethe: ["Person: Adresse, Telefon", "Länder/Nationalitäten", "Zahlen"], bamf: ["Unterricht"] },
+  },
+  {
+    id: "m03-familie",
+    number: 3,
+    part: "A1.1",
+    titleDe: "Meine Familie",
+    title: { en: "My family", te: "నా కుటుంబం", teLatn: "Naa kutumbam" },
+    summary: {
+      en: "Talk about your family, age and marital status, and say what belongs to whom.",
+      te: "మీ కుటుంబం, వయసు, పెళ్లి అయిందా లేదా అని చెప్పడం, ఏది ఎవరిదో చెప్పడం.",
+      teLatn: "Mee kutumbam, vayasu, pelli ayinda leda ani cheppadam, edi evarido cheppadam.",
+    },
+    canDo: ["Introduce your family members", "Say your age", "Describe a family photo simply"],
+    lessons: [
+      { id: "l03-1", titleDe: "Das ist meine Familie", titleEn: "This is my family" },
+      { id: "l03-2", titleDe: "Wie alt bist du?", titleEn: "How old are you?" },
+      { id: "l03-3", titleDe: "Ledig, verheiratet …", titleEn: "Marital status" },
+      { id: "l03-4", titleDe: "Fotos zeigen", titleEn: "Showing photos" },
+    ],
+    grammar: ["The verb haben (to have)", "Possessive articles: mein, dein, sein, ihr"],
+    vocabulary: ["Family members", "Marital status", "Age"],
+    roleplay: {
+      situation: {
+        en: "Showing family photos to a colleague",
+        te: "సహోద్యోగికి కుటుంబ ఫోటోలు చూపించడం",
+        teLatn: "Sahodyogiki kutumba photos choopinchadam",
+      },
+      partnerDe: "Kollegin",
+    },
+    hours: 7,
+    sources: { goethe: ["Familienstand/Familie", "Person: Alter"], bamf: ["Kontakte knüpfen (übergreifend)"] },
+  },
+  {
+    id: "m04-essen",
+    number: 4,
+    part: "A1.1",
+    titleDe: "Essen und Trinken",
+    title: { en: "Food and drinks", te: "ఆహారం మరియు పానీయాలు", teLatn: "Aahaaram mariyu paaneeyalu" },
+    summary: {
+      en: "Order in a café, say what you like to eat, and learn der/die/das with smart patterns for guessing a noun's gender.",
+      te: "కేఫ్‌లో ఆర్డర్ చేయడం, మీకు ఏం తినడం ఇష్టమో చెప్పడం, der/die/das ని సులువైన pattern లతో నేర్చుకోవడం.",
+      teLatn: "Café lo order cheyadam, meeku em tinadam ishtamo cheppadam, der/die/das ni suluvaina patterns tho nerchukovadam.",
+    },
+    canDo: ["Order food and drinks", "Say what you like and don't like", "Ask for the bill"],
+    lessons: [
+      { id: "l04-1", titleDe: "Der, die, das", titleEn: "Nouns and their articles" },
+      { id: "l04-2", titleDe: "Im Café bestellen", titleEn: "Ordering in a café" },
+      { id: "l04-3", titleDe: "Was isst du gern?", titleEn: "What do you like to eat?" },
+      { id: "l04-4", titleDe: "Frühstück, Mittagessen, Abendessen", titleEn: "Meals of the day" },
+    ],
+    grammar: ["Definite and indefinite articles", "Gender patterns: -ung → die, -chen → das, …", "möchten (would like)", "ein / kein", "Accusative first steps: einen Kaffee"],
+    vocabulary: ["Food", "Drinks", "Meals", "In the café"],
+    roleplay: {
+      situation: {
+        en: "Ordering coffee and cake in a Berlin café",
+        te: "బెర్లిన్ కేఫ్‌లో కాఫీ, కేక్ ఆర్డర్ చేయడం",
+        teLatn: "Berlin café lo coffee, cake order cheyadam",
+      },
+      partnerDe: "Kellner",
+    },
+    hours: 9,
+    sources: { goethe: ["Essen/Trinken", "Lokale"], bamf: ["Einkaufen"] },
+  },
+  {
+    id: "m05-einkaufen",
+    number: 5,
+    part: "A1.1",
+    titleDe: "Einkaufen",
+    title: { en: "Shopping and prices", te: "షాపింగ్ మరియు ధరలు", teLatn: "Shopping mariyu dharalu" },
+    summary: {
+      en: "Buy groceries at the supermarket or market, ask for prices and quantities, and pay.",
+      te: "సూపర్ మార్కెట్‌లో సరుకులు కొనడం, ధర, ఎంత కావాలో అడగడం, డబ్బు చెల్లించడం.",
+      teLatn: "Super market lo sarukulu konadam, dhara, entha kaavalo adagadam, dabbu chellinchadam.",
+    },
+    canDo: ["Ask where something is in a shop", "Understand prices", "Pay in cash or by card"],
+    lessons: [
+      { id: "l05-1", titleDe: "Im Supermarkt", titleEn: "At the supermarket" },
+      { id: "l05-2", titleDe: "Wie viel kostet das?", titleEn: "How much is it?" },
+      { id: "l05-3", titleDe: "Ein Kilo, eine Flasche", titleEn: "Quantities and packaging" },
+      { id: "l05-4", titleDe: "An der Kasse", titleEn: "At the checkout: cash or card?" },
+    ],
+    grammar: ["Plural forms", "Accusative: den / einen", "Numbers to 1000 and prices in euro", "Wie viel? / Wie viele?"],
+    vocabulary: ["Groceries", "Shops", "Weights and measures", "Money"],
+    roleplay: {
+      situation: {
+        en: "At the supermarket checkout",
+        te: "సూపర్ మార్కెట్ బిల్లింగ్ కౌంటర్ దగ్గర",
+        teLatn: "Super market billing counter daggara",
+      },
+      partnerDe: "Kassierer",
+    },
+    hours: 8,
+    sources: { goethe: ["Einkaufen: Geschäfte, Preis/Bezahlen, Lebensmittel", "Währungen", "Maße und Gewichte"], bamf: ["Einkaufen"] },
+  },
+  {
+    id: "m06-tag",
+    number: 6,
+    part: "A1.1",
+    titleDe: "Mein Tag",
+    title: { en: "My day: time and daily routine", te: "నా రోజు: సమయం మరియు దినచర్య", teLatn: "Naa roju: samayam mariyu dinacharya" },
+    summary: {
+      en: "Tell the time, talk about your daily routine and the days of the week.",
+      te: "టైమ్ చెప్పడం, మీ రోజువారీ పనులు, వారంలో రోజుల గురించి మాట్లాడడం.",
+      teLatn: "Time cheppadam, mee rojuvaari panulu, vaaramlo rojula gurinchi maatladadam.",
+    },
+    canDo: ["Tell the time (formal and informal)", "Describe your daily routine", "Make a simple plan with someone"],
+    lessons: [
+      { id: "l06-1", titleDe: "Wie spät ist es?", titleEn: "What time is it?" },
+      { id: "l06-2", titleDe: "Mein Tagesablauf", titleEn: "My daily routine" },
+      { id: "l06-3", titleDe: "Die Wochentage", titleEn: "Days of the week" },
+      { id: "l06-4", titleDe: "Wann hast du Zeit?", titleEn: "When are you free?" },
+    ],
+    grammar: ["Separable verbs: aufstehen, einkaufen", "Time prepositions: um, am, von … bis", "Time first, then verb: Am Montag arbeite ich."],
+    vocabulary: ["Clock times", "Times of day", "Weekdays", "Daily activities"],
+    roleplay: {
+      situation: {
+        en: "Arranging a time to meet a friend",
+        te: "స్నేహితుడిని కలవడానికి టైమ్ ఫిక్స్ చేయడం",
+        teLatn: "Snehitudini kalavadaaniki time fix cheyadam",
+      },
+      partnerDe: "Freund",
+    },
+    hours: 8,
+    sources: { goethe: ["Gewohnheiten/Tagesablauf", "Uhrzeit", "Wochentage", "Tageszeiten"], bamf: ["Arbeit"] },
+  },
+  {
+    id: "m07-freizeit",
+    number: 7,
+    part: "A1.2",
+    titleDe: "Freizeit",
+    title: { en: "Free time and hobbies", te: "ఖాళీ సమయం మరియు హాబీలు", teLatn: "Khaali samayam mariyu hobbies" },
+    summary: {
+      en: "Talk about hobbies and sports, what you can do and what you want to do, and invite someone.",
+      te: "హాబీలు, ఆటల గురించి మాట్లాడడం, మీరు ఏం చేయగలరో, ఏం చేయాలనుకుంటున్నారో చెప్పడం, ఎవరినైనా ఆహ్వానించడం.",
+      teLatn: "Hobbies, aatala gurinchi maatladadam, meeru em cheyagalaro, em cheyaalanukuntunnaaro cheppadam, evarinaina aahvaaninchadam.",
+    },
+    canDo: ["Talk about your hobbies", "Say what you can and can't do", "Accept or decline an invitation"],
+    lessons: [
+      { id: "l07-1", titleDe: "Hobbys und Sport", titleEn: "Hobbies and sport" },
+      { id: "l07-2", titleDe: "Gern, lieber, am liebsten", titleEn: "Like, prefer, like most" },
+      { id: "l07-3", titleDe: "Ich kann schwimmen", titleEn: "Can and want: können, wollen" },
+      { id: "l07-4", titleDe: "Eine Einladung", titleEn: "Accepting and declining invitations" },
+    ],
+    grammar: ["Modal verbs: können, wollen, möchten", "gern / lieber / am liebsten", "Negation: nicht vs. kein"],
+    vocabulary: ["Hobbies", "Sports", "Invitations"],
+    roleplay: {
+      situation: {
+        en: "A colleague invites you to play football at the weekend",
+        te: "వీకెండ్‌లో ఫుట్‌బాల్ ఆడటానికి సహోద్యోగి పిలుస్తున్నారు",
+        teLatn: "Weekend lo football aadataaniki sahodyogi pilustunnaaru",
+      },
+      partnerDe: "Kollege",
+    },
+    hours: 8,
+    sources: { goethe: ["Freizeit/Unterhaltung"], bamf: ["Mediennutzung"] },
+  },
+  {
+    id: "m08-wohnen",
+    number: 8,
+    part: "A1.2",
+    titleDe: "Wohnen",
+    title: { en: "Living: flat, rooms and rent", te: "ఇల్లు: ఫ్లాట్, గదులు, అద్దె", teLatn: "Illu: flat, gadulu, adde" },
+    summary: {
+      en: "Describe your flat and rooms, read a simple flat advert, and talk to a landlord or flatmate.",
+      te: "మీ ఫ్లాట్, గదుల గురించి చెప్పడం, ఫ్లాట్ ప్రకటన చదవడం, ఇంటి ఓనర్ లేదా ఫ్లాట్‌మేట్‌తో మాట్లాడడం.",
+      teLatn: "Mee flat, gadula gurinchi cheppadam, flat prakatana chadavadam, inti owner leda flatmate tho maatladadam.",
+    },
+    canDo: ["Describe your flat", "Understand a flat advert (Kaltmiete, Warmmiete)", "Report a problem to the landlord"],
+    lessons: [
+      { id: "l08-1", titleDe: "Meine Wohnung", titleEn: "My flat" },
+      { id: "l08-2", titleDe: "Zimmer und Möbel", titleEn: "Rooms and furniture" },
+      { id: "l08-3", titleDe: "Eine Wohnungsanzeige lesen", titleEn: "Reading a flat advert" },
+      { id: "l08-4", titleDe: "Die Heizung ist kaputt!", titleEn: "Reporting problems in the flat" },
+    ],
+    grammar: ["Adjectives after sein: groß, hell, teuer", "es gibt + accusative", "Location prepositions with dative: in, auf, neben (Wo?)"],
+    vocabulary: ["Rooms", "Furniture", "Rent and flat-ad words", "Household problems"],
+    roleplay: {
+      situation: {
+        en: "Calling the landlord: the heating is broken",
+        te: "ఇంటి ఓనర్‌కి ఫోన్: హీటింగ్ పని చేయడం లేదు",
+        teLatn: "Inti owner ki phone: heating pani cheyadam ledu",
+      },
+      partnerDe: "Vermieter",
+    },
+    hours: 9,
+    sources: { goethe: ["Wohnen: Wohnung, Räume, Miete, Einrichtung"], bamf: ["Wohnen"] },
+  },
+  {
+    id: "m09-stadt",
+    number: 9,
+    part: "A1.2",
+    titleDe: "In der Stadt",
+    title: { en: "In the city: directions and transport", te: "నగరంలో: దారి మరియు ప్రయాణం", teLatn: "Nagaramlo: daari mariyu prayaanam" },
+    summary: {
+      en: "Ask for and give directions, use the U-Bahn, S-Bahn and bus, and buy a ticket.",
+      te: "దారి అడగడం, చెప్పడం, U-Bahn, S-Bahn, బస్ వాడడం, టికెట్ కొనడం.",
+      teLatn: "Daari adagadam, cheppadam, U-Bahn, S-Bahn, bus vaadadam, ticket konadam.",
+    },
+    canDo: ["Ask the way", "Understand simple directions", "Buy a public-transport ticket"],
+    lessons: [
+      { id: "l09-1", titleDe: "Wo ist …?", titleEn: "Asking for directions" },
+      { id: "l09-2", titleDe: "Mit der U-Bahn fahren", titleEn: "Taking the U-Bahn" },
+      { id: "l09-3", titleDe: "Ein Ticket kaufen", titleEn: "Buying a ticket" },
+      { id: "l09-4", titleDe: "Orte in der Stadt", titleEn: "Places in the city" },
+    ],
+    grammar: ["Imperative (Sie-form): Gehen Sie geradeaus!", "Dative prepositions: mit, zu, von", "Wo? vs. Wohin?", "Ordinal numbers: die erste Straße links"],
+    vocabulary: ["Places in town", "Transport", "Directions"],
+    roleplay: {
+      situation: {
+        en: "Asking a stranger the way to the Bürgeramt",
+        te: "Bürgeramt కి దారి ఒక అపరిచితుడిని అడగడం",
+        teLatn: "Bürgeramt ki daari oka aparichitudini adagadam",
+      },
+      partnerDe: "Passantin",
+    },
+    hours: 8,
+    sources: { goethe: ["Reisen/Verkehr: öffentlicher Verkehr"], bamf: ["Mobilität"] },
+  },
+  {
+    id: "m10-aemter",
+    number: 10,
+    part: "A1.2",
+    titleDe: "Ämter und Termine",
+    title: {
+      en: "Offices and appointments: Bürgeramt, bank, post",
+      te: "కార్యాలయాలు, అపాయింట్‌మెంట్లు: Bürgeramt, బ్యాంక్, పోస్ట్",
+      teLatn: "Kaaryaalayaalu, appointments: Bürgeramt, bank, post",
+    },
+    summary: {
+      en: "Make an appointment, register your address (Anmeldung), fill in a form with your personal data, and open a bank account.",
+      te: "అపాయింట్‌మెంట్ తీసుకోవడం, మీ అడ్రస్ రిజిస్టర్ చేయడం (Anmeldung), ఫారమ్‌లో వివరాలు నింపడం, బ్యాంక్ అకౌంట్ తెరవడం.",
+      teLatn: "Appointment teesukovadam, mee address register cheyadam (Anmeldung), form lo vivaraalu nimpadam, bank account teravadam.",
+    },
+    canDo: ["Book an appointment", "Give your personal details", "Understand which documents you need"],
+    lessons: [
+      { id: "l10-1", titleDe: "Einen Termin machen", titleEn: "Making an appointment" },
+      { id: "l10-2", titleDe: "Beim Bürgeramt: die Anmeldung", titleEn: "Registering your address" },
+      { id: "l10-3", titleDe: "Formulare ausfüllen", titleEn: "Filling in forms" },
+      { id: "l10-4", titleDe: "Bei der Bank und bei der Post", titleEn: "At the bank and the post office" },
+    ],
+    grammar: ["Modal verbs: müssen, dürfen", "Dates with ordinal numbers: am dritten Mai", "Polite requests: Ich hätte gern … / Können Sie …?"],
+    vocabulary: ["Personal data on forms", "Documents", "Bank and post"],
+    roleplay: {
+      situation: {
+        en: "Your Anmeldung appointment at the Bürgeramt",
+        te: "Bürgeramt లో మీ Anmeldung అపాయింట్‌మెంట్",
+        teLatn: "Bürgeramt lo mee Anmeldung appointment",
+      },
+      partnerDe: "Sachbearbeiterin",
+    },
+    hours: 9,
+    sources: { goethe: ["Dienstleistungen: Post, Banken", "Person"], bamf: ["Ämter und Behörden", "Banken und Versicherungen"] },
+  },
+  {
+    id: "m11-gesundheit",
+    number: 11,
+    part: "A1.2",
+    titleDe: "Gesundheit",
+    title: { en: "Health: body, doctor and pharmacy", te: "ఆరోగ్యం: శరీరం, డాక్టర్, మందుల షాప్", teLatn: "Aarogyam: shareeram, doctor, mandula shop" },
+    summary: {
+      en: "Name parts of the body, say what hurts, make a doctor's appointment and understand simple instructions.",
+      te: "శరీర భాగాల పేర్లు, ఎక్కడ నొప్పిగా ఉందో చెప్పడం, డాక్టర్ అపాయింట్‌మెంట్ తీసుకోవడం, సూచనలు అర్థం చేసుకోవడం.",
+      teLatn: "Shareera bhaagaala perlu, ekkada noppiga undo cheppadam, doctor appointment teesukovadam, soochanalu ardham chesukovadam.",
+    },
+    canDo: ["Describe how you feel and what hurts", "Book a doctor's appointment by phone", "Call in sick at work"],
+    lessons: [
+      { id: "l11-1", titleDe: "Der Körper", titleEn: "The body" },
+      { id: "l11-2", titleDe: "Beim Arzt", titleEn: "At the doctor's" },
+      { id: "l11-3", titleDe: "In der Apotheke", titleEn: "At the pharmacy" },
+      { id: "l11-4", titleDe: "Sich krankmelden", titleEn: "Calling in sick" },
+    ],
+    grammar: ["Mein Kopf tut weh / Ich habe Kopfschmerzen", "Imperative (du and Sie) for instructions", "Possessive articles in the accusative"],
+    vocabulary: ["Body parts", "Symptoms", "At the doctor's and pharmacy"],
+    roleplay: {
+      situation: {
+        en: "At the doctor's: you have a headache and a fever",
+        te: "డాక్టర్ దగ్గర: మీకు తలనొప్పి, జ్వరం ఉంది",
+        teLatn: "Doctor daggara: meeku talanoppi, jwaram undi",
+      },
+      partnerDe: "Ärztin",
+    },
+    hours: 8,
+    sources: { goethe: ["Person: Aussehen"], bamf: ["Gesundheit"] },
+  },
+  {
+    id: "m12-arbeit",
+    number: 12,
+    part: "A1.2",
+    titleDe: "Arbeit und Beruf",
+    title: { en: "Work and jobs", te: "పని మరియు ఉద్యోగం", teLatn: "Pani mariyu udyogam" },
+    summary: {
+      en: "Talk about jobs and your workplace, say what you did yesterday, and introduce yourself professionally.",
+      te: "ఉద్యోగాలు, మీ ఆఫీస్ గురించి మాట్లాడడం, నిన్న ఏం చేశారో చెప్పడం, ప్రొఫెషనల్‌గా పరిచయం చేసుకోవడం.",
+      teLatn: "Udyogaalu, mee office gurinchi maatladadam, ninna em chesaaro cheppadam, professional ga parichayam chesukovadam.",
+    },
+    canDo: ["Say your job and where you work", "Say what you did yesterday", "Introduce yourself at work"],
+    lessons: [
+      { id: "l12-1", titleDe: "Berufe", titleEn: "Jobs and professions" },
+      { id: "l12-2", titleDe: "Am Arbeitsplatz", titleEn: "At the workplace" },
+      { id: "l12-3", titleDe: "Was hast du gestern gemacht?", titleEn: "Past tense with haben (Perfekt)" },
+      { id: "l12-4", titleDe: "Ich war, ich hatte", titleEn: "Past of sein and haben" },
+    ],
+    grammar: ["Perfekt with haben: gemacht, gearbeitet", "Präteritum of sein and haben: war, hatte", "Job titles: -er / -erin"],
+    vocabulary: ["Professions", "Office and workplace", "Working hours"],
+    roleplay: {
+      situation: {
+        en: "Your first day at a new Werkstudent job",
+        te: "కొత్త Werkstudent ఉద్యోగంలో మీ మొదటి రోజు",
+        teLatn: "Kotha Werkstudent udyogamlo mee modati roju",
+      },
+      partnerDe: "Teamleiterin",
+    },
+    hours: 9,
+    sources: { goethe: ["Arbeit/Beruf: Arbeitsplatz, Urlaub"], bamf: ["Arbeit", "Arbeitssuche"] },
+  },
+  {
+    id: "m13-kleidung",
+    number: 13,
+    part: "A1.2",
+    titleDe: "Kleidung und Wetter",
+    title: { en: "Clothes and weather", te: "బట్టలు మరియు వాతావరణం", teLatn: "Battalu mariyu vaathaavaranam" },
+    summary: {
+      en: "Buy clothes, talk about colours and sizes, and talk about the weather and seasons in Germany.",
+      te: "బట్టలు కొనడం, రంగులు, సైజుల గురించి మాట్లాడడం, జర్మనీలో వాతావరణం, ఋతువుల గురించి మాట్లాడడం.",
+      teLatn: "Battalu konadam, rangulu, sizes gurinchi maatladadam, Germany lo vaathaavaranam, ruthuvula gurinchi maatladadam.",
+    },
+    canDo: ["Try on and buy clothes", "Describe the weather", "Name the months and seasons"],
+    lessons: [
+      { id: "l13-1", titleDe: "Kleidung kaufen", titleEn: "Buying clothes" },
+      { id: "l13-2", titleDe: "Farben und Größen", titleEn: "Colours and sizes" },
+      { id: "l13-3", titleDe: "Das Wetter", titleEn: "The weather" },
+      { id: "l13-4", titleDe: "Jahreszeiten und Monate", titleEn: "Seasons and months" },
+    ],
+    grammar: ["welcher / dieser", "Personal pronouns in the accusative: ihn, sie, es", "Impersonal es: Es regnet."],
+    vocabulary: ["Clothes", "Colours", "Weather", "Months and seasons"],
+    roleplay: {
+      situation: {
+        en: "Buying a winter jacket",
+        te: "వింటర్ జాకెట్ కొనడం",
+        teLatn: "Winter jacket konadam",
+      },
+      partnerDe: "Verkäufer",
+    },
+    hours: 7,
+    sources: { goethe: ["Einkaufen: Kleidung", "Umwelt: Klima/Wetter", "Farben", "Jahreszeiten", "Monatsnamen"], bamf: ["Einkaufen"] },
+  },
+  {
+    id: "m14-reisen",
+    number: 14,
+    part: "A1.2",
+    titleDe: "Reisen und Feiern",
+    title: { en: "Travel and celebrations", te: "ప్రయాణాలు మరియు వేడుకలు", teLatn: "Prayaanaalu mariyu vedukalu" },
+    summary: {
+      en: "Book a train ticket or hotel, talk about a past trip, and write short messages and invitations.",
+      te: "ట్రైన్ టికెట్ లేదా హోటల్ బుక్ చేయడం, గతంలో వెళ్లిన ట్రిప్ గురించి చెప్పడం, చిన్న మెసేజ్‌లు, ఆహ్వానాలు రాయడం.",
+      teLatn: "Train ticket leda hotel book cheyadam, gatamlo vellina trip gurinchi cheppadam, chinna messages, aahvaanaalu raayadam.",
+    },
+    canDo: ["Buy a train ticket", "Check in at a hotel", "Write a short message or invitation"],
+    lessons: [
+      { id: "l14-1", titleDe: "Am Bahnhof", titleEn: "At the train station" },
+      { id: "l14-2", titleDe: "Im Hotel", titleEn: "At the hotel" },
+      { id: "l14-3", titleDe: "Ich bin nach Hamburg gefahren", titleEn: "Past tense with sein (Perfekt)" },
+      { id: "l14-4", titleDe: "Eine kurze Nachricht", titleEn: "Writing a short message" },
+    ],
+    grammar: ["Perfekt with sein: gefahren, gegangen", "Dates", "Structure of an informal message"],
+    vocabulary: ["Train travel", "Hotel", "Holidays and celebrations"],
+    roleplay: {
+      situation: {
+        en: "Buying a train ticket at the station counter",
+        te: "స్టేషన్ కౌంటర్‌లో ట్రైన్ టికెట్ కొనడం",
+        teLatn: "Station counter lo train ticket konadam",
+      },
+      partnerDe: "Bahnmitarbeiter",
+    },
+    hours: 8,
+    sources: { goethe: ["Reisen/Verkehr: Reisen, Unterkunft, Gepäck"], bamf: ["Mobilität"] },
+  },
+  {
+    id: "m15-pruefung",
+    number: 15,
+    part: "A1.2",
+    titleDe: "Prüfungstraining A1",
+    title: { en: "A1 exam training (Start Deutsch 1)", te: "A1 పరీక్ష శిక్షణ (Start Deutsch 1)", teLatn: "A1 pareeksha shikshana (Start Deutsch 1)" },
+    summary: {
+      en: "Practise all four parts of the Goethe / telc A1 exam — listening, reading, writing, speaking — and take a full mock test.",
+      te: "Goethe / telc A1 పరీక్షలోని నాలుగు భాగాలు — వినడం, చదవడం, రాయడం, మాట్లాడడం — ప్రాక్టీస్ చేసి, పూర్తి మాక్ టెస్ట్ రాయడం.",
+      teLatn: "Goethe / telc A1 pareekshaloni naalugu bhaagaalu — vinadam, chadavadam, raayadam, maatladadam — practice chesi, poorthi mock test raayadam.",
+    },
+    canDo: ["Know the exam format", "Complete a timed mock test", "Feel ready to book the real exam"],
+    lessons: [
+      { id: "l15-1", titleDe: "Hören", titleEn: "Listening" },
+      { id: "l15-2", titleDe: "Lesen", titleEn: "Reading" },
+      { id: "l15-3", titleDe: "Schreiben", titleEn: "Writing: a form and a short message" },
+      { id: "l15-4", titleDe: "Sprechen und Modelltest", titleEn: "Speaking and full mock test" },
+    ],
+    grammar: ["Review of all A1 grammar"],
+    vocabulary: ["Review of all A1 vocabulary"],
+    roleplay: {
+      situation: {
+        en: "Oral exam: introduce yourself and ask and answer questions",
+        te: "మౌఖిక పరీక్ష: మీ పరిచయం, ప్రశ్నలు అడగడం, జవాబులు చెప్పడం",
+        teLatn: "Maukhika pareeksha: mee parichayam, prashnalu adagadam, javaabulu cheppadam",
+      },
+      partnerDe: "Prüferin",
+    },
+    hours: 10,
+    sources: { goethe: ["All A1 topic areas"], bamf: ["Unterricht"] },
+  },
+];
+
+export function getModule(id: string): CourseModule | undefined {
+  return A1_SYLLABUS.find((m) => m.id === id);
+}
+
+export const A1_TOTAL_LESSONS = A1_SYLLABUS.reduce((n, m) => n + m.lessons.length, 0);
+export const A1_TOTAL_HOURS = A1_SYLLABUS.reduce((n, m) => n + m.hours, 0);
