@@ -3,6 +3,9 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   cacheComponents: true,
   partialPrefetching: true,
+  // Dev only: lets a phone on the same Wi-Fi open `next dev` via the laptop's
+  // LAN address (http://<laptop-ip>:3000). Covers home networks like 192.168.x.x.
+  allowedDevOrigins: ["192.168.*.*"],
   turbopack: {
     rules: {
       "*.css": {
