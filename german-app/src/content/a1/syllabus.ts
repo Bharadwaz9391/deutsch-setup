@@ -9,6 +9,8 @@ import type { CourseModule } from "@/lib/types";
  * Easy German (real spoken German), german.net (graded practice).
  *
  * All text here is original. Only topic areas (not content) are taken from the references.
+ * Telugu style: simple everyday Telugu with English words written in Telugu letters
+ * (e.g. "లెటర్స్", not "అక్షరమాల"). German inside text goes in {curly braces}.
  * Telugu texts: please review and correct — the learner is a native speaker.
  */
 export const A1_SYLLABUS: CourseModule[] = [
@@ -19,13 +21,13 @@ export const A1_SYLLABUS: CourseModule[] = [
     titleDe: "Hallo, Deutsch!",
     title: {
       en: "German sounds and the alphabet",
-      te: "జర్మన్ ఉచ్చారణ మరియు అక్షరమాల",
-      teLatn: "German uccharana mariyu aksharamaala",
+      te: "జర్మన్ లెటర్స్, సౌండ్స్",
+      teLatn: "German letters, sounds",
     },
     summary: {
       en: "Learn the German alphabet, the special letters ä, ö, ü, ß and the sounds that are new for Telugu speakers.",
-      te: "జర్మన్ అక్షరమాల, ä, ö, ü, ß లాంటి ప్రత్యేక అక్షరాలు, తెలుగు వాళ్ళకి కొత్తగా ఉండే శబ్దాలు నేర్చుకుందాం.",
-      teLatn: "German aksharamaala, ä, ö, ü, ß laanti pratyeka aksharaalu, Telugu vaallaki kothaga unde shabdaalu nerchukundaam.",
+      te: "జర్మన్ ఆల్ఫాబెట్, {ä}, {ö}, {ü}, {ß} లాంటి స్పెషల్ లెటర్స్, మన తెలుగులో లేని కొత్త సౌండ్స్ నేర్చుకుందాం.",
+      teLatn: "German alphabet, {ä}, {ö}, {ü}, {ß} laanti special letters, mana Telugu lo leni kotha sounds nerchukundaam.",
     },
     canDo: [
       "Spell your name and email address",
@@ -61,13 +63,13 @@ export const A1_SYLLABUS: CourseModule[] = [
     titleDe: "Hallo! Ich bin …",
     title: {
       en: "Greetings and introducing yourself",
-      te: "పలకరింపులు, మిమ్మల్ని మీరు పరిచయం చేసుకోవడం",
-      teLatn: "Palakarimpulu, mimmalni meeru parichayam chesukovadam",
+      te: "హలో చెప్పడం, మిమ్మల్ని మీరు ఇంట్రడ్యూస్ చేసుకోవడం",
+      teLatn: "Hello cheppadam, mimmalni meeru introduce chesukovadam",
     },
     summary: {
       en: "Say hello and goodbye, introduce yourself, and know when to use 'du' (friends) and 'Sie' (formal).",
-      te: "హలో, బై చెప్పడం, మీ పరిచయం చెప్పడం, 'du' (స్నేహితులతో) మరియు 'Sie' (గౌరవంగా) ఎప్పుడు వాడాలో తెలుసుకోవడం.",
-      teLatn: "Hello, bye cheppadam, mee parichayam cheppadam, 'du' (snehitulatho) mariyu 'Sie' (gouravamga) eppudu vaadalo telusukovadam.",
+      te: "హలో, బై చెప్పడం, మీ గురించి చెప్పడం, ఫ్రెండ్స్‌తో {du}, తెలియని వాళ్ళతో {Sie} ఎప్పుడు వాడాలో నేర్చుకుందాం.",
+      teLatn: "Hello, bye cheppadam, mee gurinchi cheppadam, friends tho {du}, teliyani vaallatho {Sie} eppudu vaadaalo nerchukundaam.",
     },
     canDo: [
       "Greet people formally and informally",
@@ -85,8 +87,8 @@ export const A1_SYLLABUS: CourseModule[] = [
     roleplay: {
       situation: {
         en: "Meeting your new neighbour in the stairwell",
-        te: "మెట్ల దగ్గర మీ కొత్త పక్కింటి వాళ్ళని కలవడం",
-        teLatn: "Metla daggara mee kotha pakkinti vaallani kalavadam",
+        te: "మెట్ల దగ్గర మీ కొత్త నైబర్‌ని కలవడం",
+        teLatn: "Metla daggara mee kotha neighbour ni kalavadam",
       },
       partnerDe: "Nachbarin",
     },
@@ -100,13 +102,13 @@ export const A1_SYLLABUS: CourseModule[] = [
     titleDe: "Woher kommst du?",
     title: {
       en: "Where are you from? Countries and languages",
-      te: "మీరు ఎక్కడి నుంచి వచ్చారు? దేశాలు, భాషలు",
-      teLatn: "Meeru ekkadi nunchi vachaaru? Deshaalu, bhaashalu",
+      te: "మీది ఏ దేశం? కంట్రీస్, లాంగ్వేజెస్",
+      teLatn: "Meedi e desham? Countries, languages",
     },
     summary: {
       en: "Talk about where you come from, where you live and which languages you speak. Count to 100.",
-      te: "మీరు ఎక్కడి నుంచి వచ్చారు, ఎక్కడ ఉంటున్నారు, ఏ భాషలు మాట్లాడతారు అని చెప్పడం. 100 వరకు లెక్కపెట్టడం.",
-      teLatn: "Meeru ekkadi nunchi vachaaru, ekkada untunnaru, ee bhaashalu maatladataaru ani cheppadam. 100 varaku lekkapettadam.",
+      te: "మీరు ఎక్కడి నుంచి వచ్చారు, ఎక్కడ ఉంటున్నారు, ఏ లాంగ్వేజెస్ మాట్లాడతారు అని చెప్పడం. 100 వరకు నంబర్స్.",
+      teLatn: "Meeru ekkadi nunchi vachaaru, ekkada untunnaaru, e languages maatlaadataaru ani cheppadam. 100 varaku numbers.",
     },
     canDo: ["Say your country and city", "Say which languages you speak", "Give your phone number"],
     lessons: [
@@ -120,8 +122,8 @@ export const A1_SYLLABUS: CourseModule[] = [
     roleplay: {
       situation: {
         en: "Small talk with a classmate at the language course",
-        te: "భాషా కోర్సులో క్లాస్‌మేట్‌తో చిన్న సంభాషణ",
-        teLatn: "Bhaasha course lo classmate tho chinna sambhaashana",
+        te: "లాంగ్వేజ్ కోర్స్‌లో క్లాస్‌మేట్‌తో స్మాల్ టాక్",
+        teLatn: "Language course lo classmate tho small talk",
       },
       partnerDe: "Kursteilnehmer",
     },
@@ -133,11 +135,11 @@ export const A1_SYLLABUS: CourseModule[] = [
     number: 3,
     part: "A1.1",
     titleDe: "Meine Familie",
-    title: { en: "My family", te: "నా కుటుంబం", teLatn: "Naa kutumbam" },
+    title: { en: "My family", te: "నా ఫ్యామిలీ", teLatn: "Naa family" },
     summary: {
       en: "Talk about your family, age and marital status, and say what belongs to whom.",
-      te: "మీ కుటుంబం, వయసు, పెళ్లి అయిందా లేదా అని చెప్పడం, ఏది ఎవరిదో చెప్పడం.",
-      teLatn: "Mee kutumbam, vayasu, pelli ayinda leda ani cheppadam, edi evarido cheppadam.",
+      te: "మీ ఫ్యామిలీ, మీ ఏజ్, పెళ్లి అయిందా లేదా అని చెప్పడం, ఏది ఎవరిదో చెప్పడం.",
+      teLatn: "Mee family, mee age, pelli ayindaa ledaa ani cheppadam, edi evarido cheppadam.",
     },
     canDo: ["Introduce your family members", "Say your age", "Describe a family photo simply"],
     lessons: [
@@ -151,8 +153,8 @@ export const A1_SYLLABUS: CourseModule[] = [
     roleplay: {
       situation: {
         en: "Showing family photos to a colleague",
-        te: "సహోద్యోగికి కుటుంబ ఫోటోలు చూపించడం",
-        teLatn: "Sahodyogiki kutumba photos choopinchadam",
+        te: "కొలీగ్‌కి ఫ్యామిలీ ఫోటోలు చూపించడం",
+        teLatn: "Colleague ki family photos choopinchadam",
       },
       partnerDe: "Kollegin",
     },
@@ -164,11 +166,11 @@ export const A1_SYLLABUS: CourseModule[] = [
     number: 4,
     part: "A1.1",
     titleDe: "Essen und Trinken",
-    title: { en: "Food and drinks", te: "ఆహారం మరియు పానీయాలు", teLatn: "Aahaaram mariyu paaneeyalu" },
+    title: { en: "Food and drinks", te: "ఫుడ్, డ్రింక్స్", teLatn: "Food, drinks" },
     summary: {
       en: "Order in a café, say what you like to eat, and learn der/die/das with smart patterns for guessing a noun's gender.",
-      te: "కేఫ్‌లో ఆర్డర్ చేయడం, మీకు ఏం తినడం ఇష్టమో చెప్పడం, der/die/das ని సులువైన pattern లతో నేర్చుకోవడం.",
-      teLatn: "Café lo order cheyadam, meeku em tinadam ishtamo cheppadam, der/die/das ni suluvaina patterns tho nerchukovadam.",
+      te: "కేఫ్‌లో ఆర్డర్ చేయడం, మీకు ఏ ఫుడ్ ఇష్టమో చెప్పడం, {der}/{die}/{das} ని ఈజీ ప్యాటర్న్స్‌తో నేర్చుకోవడం.",
+      teLatn: "Café lo order cheyadam, meeku e food ishtamo cheppadam, {der}/{die}/{das} ni easy patterns tho nerchukovadam.",
     },
     canDo: ["Order food and drinks", "Say what you like and don't like", "Ask for the bill"],
     lessons: [
@@ -195,11 +197,11 @@ export const A1_SYLLABUS: CourseModule[] = [
     number: 5,
     part: "A1.1",
     titleDe: "Einkaufen",
-    title: { en: "Shopping and prices", te: "షాపింగ్ మరియు ధరలు", teLatn: "Shopping mariyu dharalu" },
+    title: { en: "Shopping and prices", te: "షాపింగ్, ప్రైసెస్", teLatn: "Shopping, prices" },
     summary: {
       en: "Buy groceries at the supermarket or market, ask for prices and quantities, and pay.",
-      te: "సూపర్ మార్కెట్‌లో సరుకులు కొనడం, ధర, ఎంత కావాలో అడగడం, డబ్బు చెల్లించడం.",
-      teLatn: "Super market lo sarukulu konadam, dhara, entha kaavalo adagadam, dabbu chellinchadam.",
+      te: "సూపర్ మార్కెట్‌లో సరుకులు కొనడం, ప్రైస్ అడగడం, ఎంత కావాలో చెప్పడం, పే చేయడం.",
+      teLatn: "Super market lo sarukulu konadam, price adagadam, entha kaavaalo cheppadam, pay cheyadam.",
     },
     canDo: ["Ask where something is in a shop", "Understand prices", "Pay in cash or by card"],
     lessons: [
@@ -226,11 +228,11 @@ export const A1_SYLLABUS: CourseModule[] = [
     number: 6,
     part: "A1.1",
     titleDe: "Mein Tag",
-    title: { en: "My day: time and daily routine", te: "నా రోజు: సమయం మరియు దినచర్య", teLatn: "Naa roju: samayam mariyu dinacharya" },
+    title: { en: "My day: time and daily routine", te: "నా డే: టైమ్, డైలీ రొటీన్", teLatn: "Naa day: time, daily routine" },
     summary: {
       en: "Tell the time, talk about your daily routine and the days of the week.",
-      te: "టైమ్ చెప్పడం, మీ రోజువారీ పనులు, వారంలో రోజుల గురించి మాట్లాడడం.",
-      teLatn: "Time cheppadam, mee rojuvaari panulu, vaaramlo rojula gurinchi maatladadam.",
+      te: "టైమ్ చెప్పడం, మీ డైలీ రొటీన్, వీక్ డేస్ గురించి మాట్లాడటం.",
+      teLatn: "Time cheppadam, mee daily routine, week days gurinchi maatlaadatam.",
     },
     canDo: ["Tell the time (formal and informal)", "Describe your daily routine", "Make a simple plan with someone"],
     lessons: [
@@ -244,8 +246,8 @@ export const A1_SYLLABUS: CourseModule[] = [
     roleplay: {
       situation: {
         en: "Arranging a time to meet a friend",
-        te: "స్నేహితుడిని కలవడానికి టైమ్ ఫిక్స్ చేయడం",
-        teLatn: "Snehitudini kalavadaaniki time fix cheyadam",
+        te: "ఫ్రెండ్‌ని కలవడానికి టైమ్ ఫిక్స్ చేయడం",
+        teLatn: "Friend ni kalavadaaniki time fix cheyadam",
       },
       partnerDe: "Freund",
     },
@@ -257,11 +259,11 @@ export const A1_SYLLABUS: CourseModule[] = [
     number: 7,
     part: "A1.2",
     titleDe: "Freizeit",
-    title: { en: "Free time and hobbies", te: "ఖాళీ సమయం మరియు హాబీలు", teLatn: "Khaali samayam mariyu hobbies" },
+    title: { en: "Free time and hobbies", te: "ఫ్రీ టైమ్, హాబీస్", teLatn: "Free time, hobbies" },
     summary: {
       en: "Talk about hobbies and sports, what you can do and what you want to do, and invite someone.",
-      te: "హాబీలు, ఆటల గురించి మాట్లాడడం, మీరు ఏం చేయగలరో, ఏం చేయాలనుకుంటున్నారో చెప్పడం, ఎవరినైనా ఆహ్వానించడం.",
-      teLatn: "Hobbies, aatala gurinchi maatladadam, meeru em cheyagalaro, em cheyaalanukuntunnaaro cheppadam, evarinaina aahvaaninchadam.",
+      te: "హాబీస్, స్పోర్ట్స్ గురించి మాట్లాడటం, మీరు ఏం చేయగలరో, ఏం చేయాలనుకుంటున్నారో చెప్పడం, ఎవరినైనా ఇన్వైట్ చేయడం.",
+      teLatn: "Hobbies, sports gurinchi maatlaadatam, meeru em cheyagalaro, em cheyaalanukuntunnaaro cheppadam, evarinainaa invite cheyadam.",
     },
     canDo: ["Talk about your hobbies", "Say what you can and can't do", "Accept or decline an invitation"],
     lessons: [
@@ -275,8 +277,8 @@ export const A1_SYLLABUS: CourseModule[] = [
     roleplay: {
       situation: {
         en: "A colleague invites you to play football at the weekend",
-        te: "వీకెండ్‌లో ఫుట్‌బాల్ ఆడటానికి సహోద్యోగి పిలుస్తున్నారు",
-        teLatn: "Weekend lo football aadataaniki sahodyogi pilustunnaaru",
+        te: "వీకెండ్‌లో ఫుట్‌బాల్ ఆడటానికి కొలీగ్ పిలుస్తున్నారు",
+        teLatn: "Weekend lo football aadataaniki colleague pilustunnaaru",
       },
       partnerDe: "Kollege",
     },
@@ -288,11 +290,11 @@ export const A1_SYLLABUS: CourseModule[] = [
     number: 8,
     part: "A1.2",
     titleDe: "Wohnen",
-    title: { en: "Living: flat, rooms and rent", te: "ఇల్లు: ఫ్లాట్, గదులు, అద్దె", teLatn: "Illu: flat, gadulu, adde" },
+    title: { en: "Living: flat, rooms and rent", te: "ఇల్లు: ఫ్లాట్, రూమ్స్, రెంట్", teLatn: "Illu: flat, rooms, rent" },
     summary: {
       en: "Describe your flat and rooms, read a simple flat advert, and talk to a landlord or flatmate.",
-      te: "మీ ఫ్లాట్, గదుల గురించి చెప్పడం, ఫ్లాట్ ప్రకటన చదవడం, ఇంటి ఓనర్ లేదా ఫ్లాట్‌మేట్‌తో మాట్లాడడం.",
-      teLatn: "Mee flat, gadula gurinchi cheppadam, flat prakatana chadavadam, inti owner leda flatmate tho maatladadam.",
+      te: "మీ ఫ్లాట్, రూమ్స్ గురించి చెప్పడం, ఫ్లాట్ యాడ్ చదవడం, ఓనర్ లేదా ఫ్లాట్‌మేట్‌తో మాట్లాడటం.",
+      teLatn: "Mee flat, rooms gurinchi cheppadam, flat ad chadavadam, owner ledaa flatmate tho maatlaadatam.",
     },
     canDo: ["Describe your flat", "Understand a flat advert (Kaltmiete, Warmmiete)", "Report a problem to the landlord"],
     lessons: [
@@ -306,8 +308,8 @@ export const A1_SYLLABUS: CourseModule[] = [
     roleplay: {
       situation: {
         en: "Calling the landlord: the heating is broken",
-        te: "ఇంటి ఓనర్‌కి ఫోన్: హీటింగ్ పని చేయడం లేదు",
-        teLatn: "Inti owner ki phone: heating pani cheyadam ledu",
+        te: "ఓనర్‌కి ఫోన్: హీటింగ్ పని చేయట్లేదు",
+        teLatn: "Owner ki phone: heating pani cheyatledu",
       },
       partnerDe: "Vermieter",
     },
@@ -319,11 +321,11 @@ export const A1_SYLLABUS: CourseModule[] = [
     number: 9,
     part: "A1.2",
     titleDe: "In der Stadt",
-    title: { en: "In the city: directions and transport", te: "నగరంలో: దారి మరియు ప్రయాణం", teLatn: "Nagaramlo: daari mariyu prayaanam" },
+    title: { en: "In the city: directions and transport", te: "సిటీలో: డైరెక్షన్స్, ట్రాన్స్‌పోర్ట్", teLatn: "City lo: directions, transport" },
     summary: {
       en: "Ask for and give directions, use the U-Bahn, S-Bahn and bus, and buy a ticket.",
-      te: "దారి అడగడం, చెప్పడం, U-Bahn, S-Bahn, బస్ వాడడం, టికెట్ కొనడం.",
-      teLatn: "Daari adagadam, cheppadam, U-Bahn, S-Bahn, bus vaadadam, ticket konadam.",
+      te: "దారి అడగడం, చెప్పడం, {U-Bahn}, {S-Bahn}, బస్ ఎక్కడం, టికెట్ కొనడం.",
+      teLatn: "Daari adagadam, cheppadam, {U-Bahn}, {S-Bahn}, bus ekkadam, ticket konadam.",
     },
     canDo: ["Ask the way", "Understand simple directions", "Buy a public-transport ticket"],
     lessons: [
@@ -337,8 +339,8 @@ export const A1_SYLLABUS: CourseModule[] = [
     roleplay: {
       situation: {
         en: "Asking a stranger the way to the Bürgeramt",
-        te: "Bürgeramt కి దారి ఒక అపరిచితుడిని అడగడం",
-        teLatn: "Bürgeramt ki daari oka aparichitudini adagadam",
+        te: "{Bürgeramt} కి దారి ఎవరినైనా అడగడం",
+        teLatn: "{Bürgeramt} ki daari evarinainaa adagadam",
       },
       partnerDe: "Passantin",
     },
@@ -352,13 +354,13 @@ export const A1_SYLLABUS: CourseModule[] = [
     titleDe: "Ämter und Termine",
     title: {
       en: "Offices and appointments: Bürgeramt, bank, post",
-      te: "కార్యాలయాలు, అపాయింట్‌మెంట్లు: Bürgeramt, బ్యాంక్, పోస్ట్",
-      teLatn: "Kaaryaalayaalu, appointments: Bürgeramt, bank, post",
+      te: "ఆఫీసులు, అపాయింట్‌మెంట్స్: {Bürgeramt}, బ్యాంక్, పోస్ట్",
+      teLatn: "Offices, appointments: {Bürgeramt}, bank, post",
     },
     summary: {
       en: "Make an appointment, register your address (Anmeldung), fill in a form with your personal data, and open a bank account.",
-      te: "అపాయింట్‌మెంట్ తీసుకోవడం, మీ అడ్రస్ రిజిస్టర్ చేయడం (Anmeldung), ఫారమ్‌లో వివరాలు నింపడం, బ్యాంక్ అకౌంట్ తెరవడం.",
-      teLatn: "Appointment teesukovadam, mee address register cheyadam (Anmeldung), form lo vivaraalu nimpadam, bank account teravadam.",
+      te: "అపాయింట్‌మెంట్ బుక్ చేయడం, మీ అడ్రస్ రిజిస్టర్ చేయడం ({Anmeldung}), ఫామ్ ఫిల్ చేయడం, బ్యాంక్ అకౌంట్ ఓపెన్ చేయడం.",
+      teLatn: "Appointment book cheyadam, mee address register cheyadam ({Anmeldung}), form fill cheyadam, bank account open cheyadam.",
     },
     canDo: ["Book an appointment", "Give your personal details", "Understand which documents you need"],
     lessons: [
@@ -372,8 +374,8 @@ export const A1_SYLLABUS: CourseModule[] = [
     roleplay: {
       situation: {
         en: "Your Anmeldung appointment at the Bürgeramt",
-        te: "Bürgeramt లో మీ Anmeldung అపాయింట్‌మెంట్",
-        teLatn: "Bürgeramt lo mee Anmeldung appointment",
+        te: "{Bürgeramt} లో మీ {Anmeldung} అపాయింట్‌మెంట్",
+        teLatn: "{Bürgeramt} lo mee {Anmeldung} appointment",
       },
       partnerDe: "Sachbearbeiterin",
     },
@@ -385,11 +387,11 @@ export const A1_SYLLABUS: CourseModule[] = [
     number: 11,
     part: "A1.2",
     titleDe: "Gesundheit",
-    title: { en: "Health: body, doctor and pharmacy", te: "ఆరోగ్యం: శరీరం, డాక్టర్, మందుల షాప్", teLatn: "Aarogyam: shareeram, doctor, mandula shop" },
+    title: { en: "Health: body, doctor and pharmacy", te: "హెల్త్: బాడీ, డాక్టర్, ఫార్మసీ", teLatn: "Health: body, doctor, pharmacy" },
     summary: {
       en: "Name parts of the body, say what hurts, make a doctor's appointment and understand simple instructions.",
-      te: "శరీర భాగాల పేర్లు, ఎక్కడ నొప్పిగా ఉందో చెప్పడం, డాక్టర్ అపాయింట్‌మెంట్ తీసుకోవడం, సూచనలు అర్థం చేసుకోవడం.",
-      teLatn: "Shareera bhaagaala perlu, ekkada noppiga undo cheppadam, doctor appointment teesukovadam, soochanalu ardham chesukovadam.",
+      te: "బాడీ పార్ట్స్ పేర్లు, ఎక్కడ నొప్పిగా ఉందో చెప్పడం, డాక్టర్ అపాయింట్‌మెంట్ తీసుకోవడం, డాక్టర్ చెప్పింది అర్థం చేసుకోవడం.",
+      teLatn: "Body parts perlu, ekkada noppiga undo cheppadam, doctor appointment teesukovadam, doctor cheppindi artham chesukovadam.",
     },
     canDo: ["Describe how you feel and what hurts", "Book a doctor's appointment by phone", "Call in sick at work"],
     lessons: [
@@ -403,8 +405,8 @@ export const A1_SYLLABUS: CourseModule[] = [
     roleplay: {
       situation: {
         en: "At the doctor's: you have a headache and a fever",
-        te: "డాక్టర్ దగ్గర: మీకు తలనొప్పి, జ్వరం ఉంది",
-        teLatn: "Doctor daggara: meeku talanoppi, jwaram undi",
+        te: "డాక్టర్ దగ్గర: మీకు తలనొప్పి, ఫీవర్ ఉంది",
+        teLatn: "Doctor daggara: meeku talanoppi, fever undi",
       },
       partnerDe: "Ärztin",
     },
@@ -416,11 +418,11 @@ export const A1_SYLLABUS: CourseModule[] = [
     number: 12,
     part: "A1.2",
     titleDe: "Arbeit und Beruf",
-    title: { en: "Work and jobs", te: "పని మరియు ఉద్యోగం", teLatn: "Pani mariyu udyogam" },
+    title: { en: "Work and jobs", te: "వర్క్, జాబ్స్", teLatn: "Work, jobs" },
     summary: {
       en: "Talk about jobs and your workplace, say what you did yesterday, and introduce yourself professionally.",
-      te: "ఉద్యోగాలు, మీ ఆఫీస్ గురించి మాట్లాడడం, నిన్న ఏం చేశారో చెప్పడం, ప్రొఫెషనల్‌గా పరిచయం చేసుకోవడం.",
-      teLatn: "Udyogaalu, mee office gurinchi maatladadam, ninna em chesaaro cheppadam, professional ga parichayam chesukovadam.",
+      te: "జాబ్స్, మీ వర్క్‌ప్లేస్ గురించి మాట్లాడటం, నిన్న ఏం చేశారో చెప్పడం, ఆఫీస్‌లో మిమ్మల్ని మీరు ఇంట్రడ్యూస్ చేసుకోవడం.",
+      teLatn: "Jobs, mee workplace gurinchi maatlaadatam, ninna em chesaaro cheppadam, office lo mimmalni meeru introduce chesukovadam.",
     },
     canDo: ["Say your job and where you work", "Say what you did yesterday", "Introduce yourself at work"],
     lessons: [
@@ -434,8 +436,8 @@ export const A1_SYLLABUS: CourseModule[] = [
     roleplay: {
       situation: {
         en: "Your first day at a new Werkstudent job",
-        te: "కొత్త Werkstudent ఉద్యోగంలో మీ మొదటి రోజు",
-        teLatn: "Kotha Werkstudent udyogamlo mee modati roju",
+        te: "కొత్త {Werkstudent} జాబ్‌లో మీ ఫస్ట్ డే",
+        teLatn: "Kotha {Werkstudent} job lo mee first day",
       },
       partnerDe: "Teamleiterin",
     },
@@ -447,11 +449,11 @@ export const A1_SYLLABUS: CourseModule[] = [
     number: 13,
     part: "A1.2",
     titleDe: "Kleidung und Wetter",
-    title: { en: "Clothes and weather", te: "బట్టలు మరియు వాతావరణం", teLatn: "Battalu mariyu vaathaavaranam" },
+    title: { en: "Clothes and weather", te: "బట్టలు, వెదర్", teLatn: "Battalu, weather" },
     summary: {
       en: "Buy clothes, talk about colours and sizes, and talk about the weather and seasons in Germany.",
-      te: "బట్టలు కొనడం, రంగులు, సైజుల గురించి మాట్లాడడం, జర్మనీలో వాతావరణం, ఋతువుల గురించి మాట్లాడడం.",
-      teLatn: "Battalu konadam, rangulu, sizes gurinchi maatladadam, Germany lo vaathaavaranam, ruthuvula gurinchi maatladadam.",
+      te: "బట్టలు కొనడం, కలర్స్, సైజెస్ గురించి మాట్లాడటం, జర్మనీలో వెదర్, సీజన్స్ గురించి మాట్లాడటం.",
+      teLatn: "Battalu konadam, colours, sizes gurinchi maatlaadatam, Germany lo weather, seasons gurinchi maatlaadatam.",
     },
     canDo: ["Try on and buy clothes", "Describe the weather", "Name the months and seasons"],
     lessons: [
@@ -478,11 +480,11 @@ export const A1_SYLLABUS: CourseModule[] = [
     number: 14,
     part: "A1.2",
     titleDe: "Reisen und Feiern",
-    title: { en: "Travel and celebrations", te: "ప్రయాణాలు మరియు వేడుకలు", teLatn: "Prayaanaalu mariyu vedukalu" },
+    title: { en: "Travel and celebrations", te: "ట్రావెల్, పార్టీలు", teLatn: "Travel, parties" },
     summary: {
       en: "Book a train ticket or hotel, talk about a past trip, and write short messages and invitations.",
-      te: "ట్రైన్ టికెట్ లేదా హోటల్ బుక్ చేయడం, గతంలో వెళ్లిన ట్రిప్ గురించి చెప్పడం, చిన్న మెసేజ్‌లు, ఆహ్వానాలు రాయడం.",
-      teLatn: "Train ticket leda hotel book cheyadam, gatamlo vellina trip gurinchi cheppadam, chinna messages, aahvaanaalu raayadam.",
+      te: "ట్రైన్ టికెట్ లేదా హోటల్ బుక్ చేయడం, మీరు వెళ్ళిన ట్రిప్ గురించి చెప్పడం, చిన్న మెసేజెస్, ఇన్విటేషన్స్ రాయడం.",
+      teLatn: "Train ticket ledaa hotel book cheyadam, meeru vellina trip gurinchi cheppadam, chinna messages, invitations raayadam.",
     },
     canDo: ["Buy a train ticket", "Check in at a hotel", "Write a short message or invitation"],
     lessons: [
@@ -509,11 +511,11 @@ export const A1_SYLLABUS: CourseModule[] = [
     number: 15,
     part: "A1.2",
     titleDe: "Prüfungstraining A1",
-    title: { en: "A1 exam training (Start Deutsch 1)", te: "A1 పరీక్ష శిక్షణ (Start Deutsch 1)", teLatn: "A1 pareeksha shikshana (Start Deutsch 1)" },
+    title: { en: "A1 exam training (Start Deutsch 1)", te: "A1 ఎగ్జామ్ ప్రాక్టీస్ ({Start Deutsch 1})", teLatn: "A1 exam practice ({Start Deutsch 1})" },
     summary: {
       en: "Practise all four parts of the Goethe / telc A1 exam — listening, reading, writing, speaking — and take a full mock test.",
-      te: "Goethe / telc A1 పరీక్షలోని నాలుగు భాగాలు — వినడం, చదవడం, రాయడం, మాట్లాడడం — ప్రాక్టీస్ చేసి, పూర్తి మాక్ టెస్ట్ రాయడం.",
-      teLatn: "Goethe / telc A1 pareekshaloni naalugu bhaagaalu — vinadam, chadavadam, raayadam, maatladadam — practice chesi, poorthi mock test raayadam.",
+      te: "{Goethe} / {telc} A1 ఎగ్జామ్‌లోని నాలుగు పార్ట్స్ — లిజనింగ్, రీడింగ్, రైటింగ్, స్పీకింగ్ — ప్రాక్టీస్ చేసి, ఫుల్ మాక్ టెస్ట్ రాయడం.",
+      teLatn: "{Goethe} / {telc} A1 exam loni naalugu parts — listening, reading, writing, speaking — practice chesi, full mock test raayadam.",
     },
     canDo: ["Know the exam format", "Complete a timed mock test", "Feel ready to book the real exam"],
     lessons: [
@@ -527,8 +529,8 @@ export const A1_SYLLABUS: CourseModule[] = [
     roleplay: {
       situation: {
         en: "Oral exam: introduce yourself and ask and answer questions",
-        te: "మౌఖిక పరీక్ష: మీ పరిచయం, ప్రశ్నలు అడగడం, జవాబులు చెప్పడం",
-        teLatn: "Maukhika pareeksha: mee parichayam, prashnalu adagadam, javaabulu cheppadam",
+        te: "స్పీకింగ్ ఎగ్జామ్: మీ ఇంట్రడక్షన్, క్వశ్చన్స్ అడగడం, ఆన్సర్స్ చెప్పడం",
+        teLatn: "Speaking exam: mee introduction, questions adagadam, answers cheppadam",
       },
       partnerDe: "Prüferin",
     },

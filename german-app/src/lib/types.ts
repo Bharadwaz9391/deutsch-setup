@@ -40,41 +40,28 @@ export type CourseModule = {
 };
 
 /**
- * One piece of a spoken explanation in Ride mode: either German (spoken by the
- * German voice) or Telugu (spoken by the Telugu voice; `teLatn` is what the
- * placeholder English-letter voice reads until real Telugu audio is generated).
+ * A step in a lesson. Text can contain German in {curly braces}: it is shown in
+ * bold on screen and spoken by the German voice in the audio, while the rest is
+ * spoken by the Telugu teacher voice.
+ *
+ * - `say`: the teacher explains something (simple Telugu + English words).
+ * - `de`: a German word or sentence to learn — heard slowly, explained, then
+ *   repeated twice with a pause so the learner can say it aloud.
  */
-export type SpokenPart = { de: string } | { te: string; teLatn: string };
+export type LessonStep =
+  | { say: Tri }
+  | {
+      de: string;
+      /** What it means */
+      meaning: Tri;
+      /** Optional tip: when to use it, a pronunciation hint, or a grammar note */
+      tip?: Tri;
+    };
 
-/** A phrase taught in a Ride-mode audio lesson. */
-export type RidePhrase = {
+/** The teaching content of one lesson (title and order come from the syllabus). */
+export type LessonContent = {
   id: string;
-  /** The German sentence */
-  de: string;
-  /** What it means */
-  meaning: Tri;
-  /** Where / when to use it */
-  where: Tri;
-  /** Why it is built this way (grammar or culture), shown on screen */
-  why?: Tri;
-  /** The same "why", split so German words are spoken by the German voice */
-  whyAudio?: SpokenPart[];
-};
-
-/** One audio lesson = one track in the Ride-mode player. */
-export type RideTrack = {
-  id: string;
-  titleDe: string;
-  title: Tri;
-  /** First sentence of the spoken intro (the "how it works" part is shared) */
-  intro: Tri;
-  phrases: RidePhrase[];
-};
-
-export type RidePack = {
-  id: string;
-  title: Tri;
-  tracks: RideTrack[];
+  steps: LessonStep[];
 };
 
 export type Settings = {

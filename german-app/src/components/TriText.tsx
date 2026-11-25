@@ -11,6 +11,24 @@ export const MODE_LABELS: Record<ExplanationMode, string> = {
 
 const ORDER: ExplanationMode[] = ["te", "teLatn", "en"];
 
+/** Renders text where German words are marked as {German}: shown bold, tagged lang="de". */
+export function RichText({ text }: { text: string }) {
+  const parts = text.split(/\{([^}]+)\}/);
+  return (
+    <>
+      {parts.map((part, i) =>
+        i % 2 === 1 ? (
+          <strong key={i} lang="de" className="font-semibold text-slate-900">
+            {part}
+          </strong>
+        ) : (
+          part
+        ),
+      )}
+    </>
+  );
+}
+
 /** Shows a text in every explanation mode the learner selected, side by side. */
 export function TriText({
   tri,
@@ -40,7 +58,7 @@ export function TriText({
                 : "text-sm leading-relaxed text-slate-600"
             }
           >
-            {tri[mode]}
+            <RichText text={tri[mode]} />
           </p>
         </div>
       ))}

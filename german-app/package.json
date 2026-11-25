@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "ride:audio": "node --env-file-if-exists=.env.local --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/make-ride-audio.mjs"
+    "course:audio": "node --env-file-if-exists=../.env.local --env-file-if-exists=.env.local --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/make-course-audio.mjs"
   },
   "dependencies": {
     "next": "16.4.6",

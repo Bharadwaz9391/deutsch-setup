@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
-import { ListenButton } from "@/components/ListenButton";
+import { LessonList } from "@/components/LessonList";
 import { TriText } from "@/components/TriText";
 import { A1_SYLLABUS, getModule } from "@/content/a1/syllabus";
 
@@ -66,15 +66,16 @@ async function ModuleContent({ params }: Pick<PageProps<"/course/[moduleId]">, "
         <p className="text-xs font-semibold uppercase tracking-wide text-amber-700">
           {m.part} · Module {m.number}
         </p>
-        <div className="flex items-center justify-between gap-3">
-          <h1 lang="de" className="text-2xl font-bold">
-            {m.titleDe}
-          </h1>
-          <ListenButton text={m.titleDe} />
-        </div>
+        <h1 lang="de" className="text-2xl font-bold">
+          {m.titleDe}
+        </h1>
         <TriText tri={m.title} variant="title" />
         <TriText tri={m.summary} />
       </header>
+
+      <Section title="Lessons">
+        <LessonList moduleId={m.id} />
+      </Section>
 
       <Section title="After this module you can…">
         <ul className="list-inside list-disc space-y-1 text-sm text-slate-700">
@@ -82,23 +83,6 @@ async function ModuleContent({ params }: Pick<PageProps<"/course/[moduleId]">, "
             <li key={c}>{c}</li>
           ))}
         </ul>
-      </Section>
-
-      <Section title="Lessons">
-        <ol className="space-y-2">
-          {m.lessons.map((l, i) => (
-            <li key={l.id} className="flex items-center gap-3 rounded-xl bg-slate-50 px-3 py-2.5">
-              <span className="text-xs font-bold text-slate-400">{i + 1}</span>
-              <div className="flex-1">
-                <p lang="de" className="text-sm font-semibold text-slate-800">
-                  {l.titleDe}
-                </p>
-                <p className="text-xs text-slate-500">{l.titleEn}</p>
-              </div>
-              <span className="text-[10px] font-semibold text-slate-400">🔒 Tue</span>
-            </li>
-          ))}
-        </ol>
       </Section>
 
       <Section title="Grammar">
