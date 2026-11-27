@@ -41,7 +41,10 @@ const LESSONS_DIR = join(ROOT, "src", "content", "a1", "lessons");
 const MANIFEST = join(ROOT, "src", "content", "a1", "audio-manifest.json");
 
 const SAMPLE_RATE = 24000;
-const MP3_KBPS = 32; // speech only: small files for mobile data
+// Speech only: small files for mobile data. Do NOT use 32 kbps at 24 kHz: the
+// @breezystack/lamejs encoder then writes silence after the first frames
+// (verified by decoding: 24 kHz works at 40/48/64 kbps, fails only at 32).
+const MP3_KBPS = 40;
 
 // ---------------------------------------------------------------- arguments
 const args = process.argv.slice(2);

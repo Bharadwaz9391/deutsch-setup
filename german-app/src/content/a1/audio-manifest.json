@@ -9,9 +9,9 @@
       },
       "lessons": {
         "l00-1": {
-          "src": "/audio/a1/female/l00-1-58b3799745.mp3",
+          "src": "/audio/a1/female/l00-1-5dddc5b61b.mp3",
           "duration": 157.41,
-          "bytes": 629864,
+          "bytes": 787320,
           "cues": [
             {
               "id": "intro",
@@ -44,9 +44,9 @@
           ]
         },
         "l00-2": {
-          "src": "/audio/a1/female/l00-2-1c59aa9288.mp3",
+          "src": "/audio/a1/female/l00-2-fcaf2d134c.mp3",
           "duration": 98.91,
-          "bytes": 395912,
+          "bytes": 494880,
           "cues": [
             {
               "id": "intro",
@@ -83,9 +83,9 @@
           ]
         },
         "l00-3": {
-          "src": "/audio/a1/female/l00-3-ed6d831baf.mp3",
+          "src": "/audio/a1/female/l00-3-ca79ba19e3.mp3",
           "duration": 114.29,
-          "bytes": 457456,
+          "bytes": 571800,
           "cues": [
             {
               "id": "intro",
@@ -126,9 +126,9 @@
           ]
         },
         "l00-4": {
-          "src": "/audio/a1/female/l00-4-fe7018b944.mp3",
+          "src": "/audio/a1/female/l00-4-a3663b9d24.mp3",
           "duration": 184.37,
-          "bytes": 737698,
+          "bytes": 922200,
           "cues": [
             {
               "id": "intro",
@@ -169,9 +169,9 @@
           ]
         },
         "l01-1": {
-          "src": "/audio/a1/female/l01-1-00b7e11a1a.mp3",
+          "src": "/audio/a1/female/l01-1-f0bfbcb24c.mp3",
           "duration": 111.85,
-          "bytes": 447634,
+          "bytes": 559560,
           "cues": [
             {
               "id": "intro",
@@ -208,9 +208,9 @@
           ]
         },
         "l01-2": {
-          "src": "/audio/a1/female/l01-2-2935039ed3.mp3",
+          "src": "/audio/a1/female/l01-2-13e22007c1.mp3",
           "duration": 97.24,
-          "bytes": 389224,
+          "bytes": 486480,
           "cues": [
             {
               "id": "intro",
@@ -247,9 +247,9 @@
           ]
         },
         "l01-3": {
-          "src": "/audio/a1/female/l01-3-6596f48ea4.mp3",
+          "src": "/audio/a1/female/l01-3-01eaa8e32c.mp3",
           "duration": 100.55,
-          "bytes": 402495,
+          "bytes": 503040,
           "cues": [
             {
               "id": "intro",
@@ -282,9 +282,9 @@
           ]
         },
         "l01-4": {
-          "src": "/audio/a1/female/l01-4-cde557b79d.mp3",
+          "src": "/audio/a1/female/l01-4-139fcef26d.mp3",
           "duration": 122.26,
-          "bytes": 489326,
+          "bytes": 611640,
           "cues": [
             {
               "id": "intro",
@@ -325,9 +325,9 @@
           ]
         },
         "l02-1": {
-          "src": "/audio/a1/female/l02-1-530e4824a4.mp3",
+          "src": "/audio/a1/female/l02-1-a26e2cfc63.mp3",
           "duration": 107.19,
-          "bytes": 429035,
+          "bytes": 536280,
           "cues": [
             {
               "id": "intro",
@@ -360,9 +360,9 @@
           ]
         },
         "l02-2": {
-          "src": "/audio/a1/female/l02-2-9a8125349e.mp3",
+          "src": "/audio/a1/female/l02-2-d3f5b5bd34.mp3",
           "duration": 121.94,
-          "bytes": 488072,
+          "bytes": 609960,
           "cues": [
             {
               "id": "intro",
@@ -395,9 +395,9 @@
           ]
         },
         "l02-3": {
-          "src": "/audio/a1/female/l02-3-961a767797.mp3",
+          "src": "/audio/a1/female/l02-3-cd13f85407.mp3",
           "duration": 117.09,
-          "bytes": 468637,
+          "bytes": 585720,
           "cues": [
             {
               "id": "intro",
@@ -430,9 +430,9 @@
           ]
         },
         "l02-4": {
-          "src": "/audio/a1/female/l02-4-7be3b90c5e.mp3",
+          "src": "/audio/a1/female/l02-4-07a5cbc6da.mp3",
           "duration": 156.21,
-          "bytes": 625162,
+          "bytes": 781320,
           "cues": [
             {
               "id": "intro",
@@ -473,9 +473,9 @@
           ]
         },
         "l03-1": {
-          "src": "/audio/a1/female/l03-1-257dc43a26.mp3",
+          "src": "/audio/a1/female/l03-1-636f36e6cb.mp3",
           "duration": 143.42,
-          "bytes": 573962,
+          "bytes": 717360,
           "cues": [
             {
               "id": "intro",
@@ -512,9 +512,9 @@
           ]
         },
         "l03-2": {
-          "src": "/audio/a1/female/l03-2-869709973a.mp3",
+          "src": "/audio/a1/female/l03-2-e4d8a04412.mp3",
           "duration": 99.64,
-          "bytes": 398838,
+          "bytes": 498480,
           "cues": [
             {
               "id": "intro",
@@ -543,9 +543,9 @@
           ]
         },
         "l03-3": {
-          "src": "/audio/a1/female/l03-3-41ac82427c.mp3",
+          "src": "/audio/a1/female/l03-3-25f3b53a72.mp3",
           "duration": 100.91,
-          "bytes": 403958,
+          "bytes": 504840,
           "cues": [
             {
               "id": "intro",
@@ -578,9 +578,9 @@
           ]
         },
         "l03-4": {
-          "src": "/audio/a1/female/l03-4-5d975c6e09.mp3",
+          "src": "/audio/a1/female/l03-4-412273b733.mp3",
           "duration": 129.47,
-          "bytes": 518165,
+          "bytes": 647640,
           "cues": [
             {
               "id": "intro",
@@ -621,9 +621,9 @@
           ]
         },
         "l04-1": {
-          "src": "/audio/a1/female/l04-1-1a8728d384.mp3",
+          "src": "/audio/a1/female/l04-1-e035fd12f1.mp3",
           "duration": 139.42,
-          "bytes": 557976,
+          "bytes": 697440,
           "cues": [
             {
               "id": "intro",
@@ -656,9 +656,9 @@
           ]
         },
         "l04-2": {
-          "src": "/audio/a1/female/l04-2-103ce5323e.mp3",
+          "src": "/audio/a1/female/l04-2-e991ed71a8.mp3",
           "duration": 136.55,
-          "bytes": 546482,
+          "bytes": 683040,
           "cues": [
             {
               "id": "intro",
@@ -695,9 +695,9 @@
           ]
         },
         "l04-3": {
-          "src": "/audio/a1/female/l04-3-54054b55d0.mp3",
+          "src": "/audio/a1/female/l04-3-a50726d3c8.mp3",
           "duration": 109.68,
-          "bytes": 438962,
+          "bytes": 548640,
           "cues": [
             {
               "id": "intro",
@@ -734,9 +734,9 @@
           ]
         },
         "l04-4": {
-          "src": "/audio/a1/female/l04-4-7b9a683793.mp3",
+          "src": "/audio/a1/female/l04-4-d45acf4d88.mp3",
           "duration": 121.28,
-          "bytes": 485355,
+          "bytes": 606720,
           "cues": [
             {
               "id": "intro",
@@ -777,9 +777,9 @@
           ]
         },
         "l05-1": {
-          "src": "/audio/a1/female/l05-1-4f7fbf5e93.mp3",
+          "src": "/audio/a1/female/l05-1-2780fd8dda.mp3",
           "duration": 130.08,
-          "bytes": 520568,
+          "bytes": 650760,
           "cues": [
             {
               "id": "intro",
@@ -812,9 +812,9 @@
           ]
         },
         "l05-2": {
-          "src": "/audio/a1/female/l05-2-b7909172e8.mp3",
+          "src": "/audio/a1/female/l05-2-2179ed4b94.mp3",
           "duration": 111.41,
-          "bytes": 445858,
+          "bytes": 557280,
           "cues": [
             {
               "id": "intro",
@@ -847,9 +847,9 @@
           ]
         },
         "l05-3": {
-          "src": "/audio/a1/female/l05-3-214d7f9cc3.mp3",
+          "src": "/audio/a1/female/l05-3-1beb2c3d04.mp3",
           "duration": 136.73,
-          "bytes": 547213,
+          "bytes": 684000,
           "cues": [
             {
               "id": "intro",
@@ -886,9 +886,9 @@
           ]
         },
         "l05-4": {
-          "src": "/audio/a1/female/l05-4-9503de597a.mp3",
+          "src": "/audio/a1/female/l05-4-fb35bd992f.mp3",
           "duration": 115.14,
-          "bytes": 460800,
+          "bytes": 576000,
           "cues": [
             {
               "id": "intro",
@@ -929,9 +929,9 @@
           ]
         },
         "l06-1": {
-          "src": "/audio/a1/female/l06-1-7edb531c2b.mp3",
+          "src": "/audio/a1/female/l06-1-e5ccc8c602.mp3",
           "duration": 118.95,
-          "bytes": 476056,
+          "bytes": 595080,
           "cues": [
             {
               "id": "intro",
@@ -968,9 +968,9 @@
           ]
         },
         "l06-2": {
-          "src": "/audio/a1/female/l06-2-c52f5bf286.mp3",
+          "src": "/audio/a1/female/l06-2-9016a48663.mp3",
           "duration": 103.37,
-          "bytes": 413780,
+          "bytes": 517200,
           "cues": [
             {
               "id": "intro",
@@ -1003,9 +1003,9 @@
           ]
         },
         "l06-3": {
-          "src": "/audio/a1/female/l06-3-5e7ca78b37.mp3",
+          "src": "/audio/a1/female/l06-3-e430045ab1.mp3",
           "duration": 109.17,
-          "bytes": 436976,
+          "bytes": 546120,
           "cues": [
             {
               "id": "intro",
@@ -1038,9 +1038,9 @@
           ]
         },
         "l06-4": {
-          "src": "/audio/a1/female/l06-4-57deab9875.mp3",
+          "src": "/audio/a1/female/l06-4-941bd5902c.mp3",
           "duration": 121.97,
-          "bytes": 488176,
+          "bytes": 610200,
           "cues": [
             {
               "id": "intro",
@@ -1081,9 +1081,9 @@
           ]
         },
         "l07-1": {
-          "src": "/audio/a1/female/l07-1-3a136c4247.mp3",
+          "src": "/audio/a1/female/l07-1-ee1bb66e01.mp3",
           "duration": 136.45,
-          "bytes": 546064,
+          "bytes": 682560,
           "cues": [
             {
               "id": "intro",
@@ -1120,9 +1120,9 @@
           ]
         },
         "l07-2": {
-          "src": "/audio/a1/female/l07-2-c176094a25.mp3",
+          "src": "/audio/a1/female/l07-2-d38de3f0a7.mp3",
           "duration": 104.55,
-          "bytes": 418482,
+          "bytes": 523080,
           "cues": [
             {
               "id": "intro",
@@ -1155,9 +1155,9 @@
           ]
         },
         "l07-3": {
-          "src": "/audio/a1/female/l07-3-0da399f766.mp3",
+          "src": "/audio/a1/female/l07-3-7b5bf5388e.mp3",
           "duration": 97.04,
-          "bytes": 388389,
+          "bytes": 485520,
           "cues": [
             {
               "id": "intro",
@@ -1190,9 +1190,9 @@
           ]
         },
         "l07-4": {
-          "src": "/audio/a1/female/l07-4-2d24eadb8b.mp3",
+          "src": "/audio/a1/female/l07-4-0c6c44c7d2.mp3",
           "duration": 132.71,
-          "bytes": 531122,
+          "bytes": 663840,
           "cues": [
             {
               "id": "intro",
@@ -1233,9 +1233,9 @@
           ]
         },
         "l08-1": {
-          "src": "/audio/a1/female/l08-1-ca5afa01ce.mp3",
+          "src": "/audio/a1/female/l08-1-e5d5e72fb0.mp3",
           "duration": 136.79,
-          "bytes": 547422,
+          "bytes": 684240,
           "cues": [
             {
               "id": "intro",
@@ -1268,9 +1268,9 @@
           ]
         },
         "l08-2": {
-          "src": "/audio/a1/female/l08-2-3f7ef9b8d6.mp3",
+          "src": "/audio/a1/female/l08-2-5815785f15.mp3",
           "duration": 123.41,
-          "bytes": 493923,
+          "bytes": 617400,
           "cues": [
             {
               "id": "intro",
@@ -1307,9 +1307,9 @@
           ]
         },
         "l08-3": {
-          "src": "/audio/a1/female/l08-3-37814baf6c.mp3",
+          "src": "/audio/a1/female/l08-3-2133b703cb.mp3",
           "duration": 134.53,
-          "bytes": 538331,
+          "bytes": 672960,
           "cues": [
             {
               "id": "intro",
@@ -1346,9 +1346,9 @@
           ]
         },
         "l08-4": {
-          "src": "/audio/a1/female/l08-4-4696aca670.mp3",
+          "src": "/audio/a1/female/l08-4-148c158e79.mp3",
           "duration": 113.02,
-          "bytes": 452336,
+          "bytes": 565440,
           "cues": [
             {
               "id": "intro",
@@ -1389,9 +1389,9 @@
           ]
         },
         "l09-1": {
-          "src": "/audio/a1/female/l09-1-d281684cdf.mp3",
+          "src": "/audio/a1/female/l09-1-1b9e3b20ea.mp3",
           "duration": 131.69,
-          "bytes": 527047,
+          "bytes": 658800,
           "cues": [
             {
               "id": "intro",
@@ -1428,9 +1428,9 @@
           ]
         },
         "l09-2": {
-          "src": "/audio/a1/female/l09-2-420941e6e0.mp3",
+          "src": "/audio/a1/female/l09-2-b78bbbb679.mp3",
           "duration": 120.29,
-          "bytes": 481384,
+          "bytes": 601800,
           "cues": [
             {
               "id": "intro",
@@ -1463,9 +1463,9 @@
           ]
         },
         "l09-3": {
-          "src": "/audio/a1/female/l09-3-f9854008b9.mp3",
+          "src": "/audio/a1/female/l09-3-d7d46506d1.mp3",
           "duration": 113.31,
-          "bytes": 453486,
+          "bytes": 566880,
           "cues": [
             {
               "id": "intro",
@@ -1498,9 +1498,9 @@
           ]
         },
         "l09-4": {
-          "src": "/audio/a1/female/l09-4-cb0f84ad94.mp3",
+          "src": "/audio/a1/female/l09-4-6eebfa1b3b.mp3",
           "duration": 115.18,
-          "bytes": 461009,
+          "bytes": 576240,
           "cues": [
             {
               "id": "intro",
@@ -1537,9 +1537,9 @@
           ]
         },
         "l10-1": {
-          "src": "/audio/a1/female/l10-1-60f6402c34.mp3",
+          "src": "/audio/a1/female/l10-1-7777987f14.mp3",
           "duration": 130.88,
-          "bytes": 523807,
+          "bytes": 654720,
           "cues": [
             {
               "id": "intro",
@@ -1572,9 +1572,9 @@
           ]
         },
         "l10-2": {
-          "src": "/audio/a1/female/l10-2-8134c93589.mp3",
+          "src": "/audio/a1/female/l10-2-310003f729.mp3",
           "duration": 112.34,
-          "bytes": 449620,
+          "bytes": 562080,
           "cues": [
             {
               "id": "intro",
@@ -1607,9 +1607,9 @@
           ]
         },
         "l10-3": {
-          "src": "/audio/a1/female/l10-3-c7624c6d19.mp3",
+          "src": "/audio/a1/female/l10-3-91c013c71d.mp3",
           "duration": 141.32,
-          "bytes": 565603,
+          "bytes": 706920,
           "cues": [
             {
               "id": "intro",
@@ -1646,9 +1646,9 @@
           ]
         },
         "l10-4": {
-          "src": "/audio/a1/female/l10-4-ad49955a97.mp3",
+          "src": "/audio/a1/female/l10-4-d5b9a02989.mp3",
           "duration": 137.36,
-          "bytes": 549721,
+          "bytes": 687120,
           "cues": [
             {
               "id": "intro",
@@ -1689,9 +1689,9 @@
           ]
         },
         "l11-1": {
-          "src": "/audio/a1/female/l11-1-e356d87fad.mp3",
+          "src": "/audio/a1/female/l11-1-a6a40ec15f.mp3",
           "duration": 126.22,
-          "bytes": 505104,
+          "bytes": 631440,
           "cues": [
             {
               "id": "intro",
@@ -1724,9 +1724,9 @@
           ]
         },
         "l11-2": {
-          "src": "/audio/a1/female/l11-2-d6b390af6f.mp3",
+          "src": "/audio/a1/female/l11-2-a3672ea348.mp3",
           "duration": 158.62,
-          "bytes": 634776,
+          "bytes": 793440,
           "cues": [
             {
               "id": "intro",
@@ -1767,9 +1767,9 @@
           ]
         },
         "l11-3": {
-          "src": "/audio/a1/female/l11-3-1f57d29cea.mp3",
+          "src": "/audio/a1/female/l11-3-22d0b6afe4.mp3",
           "duration": 93.24,
-          "bytes": 373238,
+          "bytes": 466560,
           "cues": [
             {
               "id": "intro",
@@ -1802,9 +1802,9 @@
           ]
         },
         "l11-4": {
-          "src": "/audio/a1/female/l11-4-14828b2530.mp3",
+          "src": "/audio/a1/female/l11-4-902a4d2e1e.mp3",
           "duration": 105.74,
-          "bytes": 423184,
+          "bytes": 528960,
           "cues": [
             {
               "id": "intro",
@@ -1841,9 +1841,9 @@
           ]
         },
         "l12-1": {
-          "src": "/audio/a1/female/l12-1-ff717f4bfc.mp3",
+          "src": "/audio/a1/female/l12-1-2285bd0e2c.mp3",
           "duration": 161.28,
-          "bytes": 645433,
+          "bytes": 806760,
           "cues": [
             {
               "id": "intro",
@@ -1880,9 +1880,9 @@
           ]
         },
         "l12-2": {
-          "src": "/audio/a1/female/l12-2-673825d14b.mp3",
+          "src": "/audio/a1/female/l12-2-ec633dc220.mp3",
           "duration": 142.15,
-          "bytes": 568842,
+          "bytes": 711000,
           "cues": [
             {
               "id": "intro",
@@ -1919,9 +1919,9 @@
           ]
         },
         "l12-3": {
-          "src": "/audio/a1/female/l12-3-7506372cbe.mp3",
+          "src": "/audio/a1/female/l12-3-5ac5c87b07.mp3",
           "duration": 113.99,
-          "bytes": 456202,
+          "bytes": 570240,
           "cues": [
             {
               "id": "intro",
@@ -1954,9 +1954,9 @@
           ]
         },
         "l12-4": {
-          "src": "/audio/a1/female/l12-4-f205dd4ffa.mp3",
+          "src": "/audio/a1/female/l12-4-803ba52a75.mp3",
           "duration": 116.43,
-          "bytes": 465920,
+          "bytes": 582480,
           "cues": [
             {
               "id": "intro",
@@ -1993,9 +1993,9 @@
           ]
         },
         "l13-1": {
-          "src": "/audio/a1/female/l13-1-b5f4c67b5f.mp3",
+          "src": "/audio/a1/female/l13-1-5221a19e25.mp3",
           "duration": 135.96,
-          "bytes": 544078,
+          "bytes": 680040,
           "cues": [
             {
               "id": "intro",
@@ -2032,9 +2032,9 @@
           ]
         },
         "l13-2": {
-          "src": "/audio/a1/female/l13-2-a5ce11d1e1.mp3",
+          "src": "/audio/a1/female/l13-2-fc02ba367e.mp3",
           "duration": 127.3,
-          "bytes": 509492,
+          "bytes": 636840,
           "cues": [
             {
               "id": "intro",
@@ -2067,9 +2067,9 @@
           ]
         },
         "l13-3": {
-          "src": "/audio/a1/female/l13-3-c2e75ca61a.mp3",
+          "src": "/audio/a1/female/l13-3-36b4084ad8.mp3",
           "duration": 107.84,
-          "bytes": 431647,
+          "bytes": 539520,
           "cues": [
             {
               "id": "intro",
@@ -2106,9 +2106,9 @@
           ]
         },
         "l13-4": {
-          "src": "/audio/a1/female/l13-4-0b53208b64.mp3",
+          "src": "/audio/a1/female/l13-4-941ce940a4.mp3",
           "duration": 143.66,
-          "bytes": 574903,
+          "bytes": 718560,
           "cues": [
             {
               "id": "intro",
@@ -2145,9 +2145,9 @@
           ]
         },
         "l14-1": {
-          "src": "/audio/a1/female/l14-1-1ec87ec68b.mp3",
+          "src": "/audio/a1/female/l14-1-8c2aa96654.mp3",
           "duration": 115.4,
-          "bytes": 461845,
+          "bytes": 577320,
           "cues": [
             {
               "id": "intro",
@@ -2180,9 +2180,9 @@
           ]
         },
         "l14-2": {
-          "src": "/audio/a1/female/l14-2-2788b27486.mp3",
+          "src": "/audio/a1/female/l14-2-a748141cc3.mp3",
           "duration": 108.01,
-          "bytes": 432274,
+          "bytes": 540360,
           "cues": [
             {
               "id": "intro",
@@ -2215,9 +2215,9 @@
           ]
         },
         "l14-3": {
-          "src": "/audio/a1/female/l14-3-edc8170989.mp3",
+          "src": "/audio/a1/female/l14-3-154156ab7d.mp3",
           "duration": 110.5,
-          "bytes": 442305,
+          "bytes": 552840,
           "cues": [
             {
               "id": "intro",
@@ -2250,9 +2250,9 @@
           ]
         },
         "l14-4": {
-          "src": "/audio/a1/female/l14-4-22da9e3549.mp3",
+          "src": "/audio/a1/female/l14-4-1135e7a002.mp3",
           "duration": 124.9,
-          "bytes": 499879,
+          "bytes": 624840,
           "cues": [
             {
               "id": "intro",
@@ -2289,9 +2289,9 @@
           ]
         },
         "l15-1": {
-          "src": "/audio/a1/female/l15-1-cc5287dd4b.mp3",
+          "src": "/audio/a1/female/l15-1-f35bdff0f1.mp3",
           "duration": 145.46,
-          "bytes": 582113,
+          "bytes": 727560,
           "cues": [
             {
               "id": "intro",
@@ -2320,9 +2320,9 @@
           ]
         },
         "l15-2": {
-          "src": "/audio/a1/female/l15-2-5c5b9b8aff.mp3",
+          "src": "/audio/a1/female/l15-2-a6506f6466.mp3",
           "duration": 121.93,
-          "bytes": 487967,
+          "bytes": 609960,
           "cues": [
             {
               "id": "intro",
@@ -2355,9 +2355,9 @@
           ]
         },
         "l15-3": {
-          "src": "/audio/a1/female/l15-3-90fedeaa5c.mp3",
+          "src": "/audio/a1/female/l15-3-cd50810925.mp3",
           "duration": 109.53,
-          "bytes": 438439,
+          "bytes": 547920,
           "cues": [
             {
               "id": "intro",
@@ -2390,9 +2390,9 @@
           ]
         },
         "l15-4": {
-          "src": "/audio/a1/female/l15-4-cdbf00736a.mp3",
+          "src": "/audio/a1/female/l15-4-ad6cdd3d3a.mp3",
           "duration": 145.46,
-          "bytes": 582113,
+          "bytes": 727560,
           "cues": [
             {
               "id": "intro",
