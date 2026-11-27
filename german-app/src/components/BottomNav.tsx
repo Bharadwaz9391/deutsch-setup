@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 const ITEMS = [
   { href: "/", label: "Home", icon: "🏠" },
   { href: "/course", label: "Course", icon: "📘" },
+  { href: "/ride", label: "Ride", icon: "🛵" },
   { href: "/speak", label: "Speak", icon: "🎙️" },
   { href: "/settings", label: "Settings", icon: "⚙️" },
 ];
@@ -18,7 +19,7 @@ export function BottomNav() {
       aria-label="Main"
       className="fixed inset-x-0 bottom-0 z-20 border-t border-slate-200 bg-white/95 backdrop-blur pb-[env(safe-area-inset-bottom)]"
     >
-      <ul className="mx-auto grid max-w-md grid-cols-4">
+      <ul className="mx-auto grid max-w-md grid-cols-5">
         {ITEMS.map((item) => {
           const active = item.href === "/" ? pathname === "/" : pathname.startsWith(item.href);
           return (
