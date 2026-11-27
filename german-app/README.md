@@ -49,6 +49,28 @@ npm run dev
 
 Open http://localhost:3000.
 
+## Lesson audio (listen in the background)
+
+Every lesson is turned into one MP3 that the app plays like a podcast: it keeps
+playing when you switch apps or lock the phone, and continues lesson → lesson →
+module by itself. Lesson texts live in `src/content/a1/lessons/m00.ts … m15.ts`
+(simple Telugu + English words; German goes in `{curly braces}` so the German
+voice speaks it).
+
+1. Put a Google Cloud Text-to-Speech key in `german-app/.env.local`:
+   `GOOGLE_TTS_API_KEY=…` (restrict the key to the Text-to-Speech API and set a
+   budget alert — the whole course is ~60,000 characters per voice, inside the
+   monthly free tier).
+2. Generate the audio (uses the human-sounding "Chirp 3 HD" voices):
+
+   ```bash
+   npm run course:audio                  # all lessons, female voice
+   npm run course:audio -- --voice both  # also the male voice
+   npm run course:audio -- --only m03    # just one module after editing it
+   ```
+
+3. Commit `public/audio/a1/` and `src/content/a1/audio-manifest.json`, then deploy.
+
 ## Deploy so it runs on your phone
 
 1. Push this folder to a new GitHub repository (e.g. `deutsch-setu`).

@@ -1,0 +1,2438 @@
+{
+  "engine": "local",
+  "voices": {
+    "female": {
+      "voices": {
+        "de": "piper-thorsten-high",
+        "te": "mms-tts-tel",
+        "mix": "mms-tts-tel"
+      },
+      "lessons": {
+        "l00-1": {
+          "src": "/audio/a1/female/l00-1-5dddc5b61b.mp3",
+          "duration": 157.41,
+          "bytes": 787320,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 16.71
+            },
+            {
+              "id": "s1",
+              "start": 30.04
+            },
+            {
+              "id": "s2",
+              "start": 54.78
+            },
+            {
+              "id": "s3",
+              "start": 79.12
+            },
+            {
+              "id": "s4",
+              "start": 103.37
+            },
+            {
+              "id": "s5",
+              "start": 123.21
+            }
+          ]
+        },
+        "l00-2": {
+          "src": "/audio/a1/female/l00-2-fcaf2d134c.mp3",
+          "duration": 98.91,
+          "bytes": 494880,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 5.46
+            },
+            {
+              "id": "s1",
+              "start": 15.21
+            },
+            {
+              "id": "s2",
+              "start": 27.75
+            },
+            {
+              "id": "s3",
+              "start": 45
+            },
+            {
+              "id": "s4",
+              "start": 59.3
+            },
+            {
+              "id": "s5",
+              "start": 73.83
+            },
+            {
+              "id": "s6",
+              "start": 91.23
+            }
+          ]
+        },
+        "l00-3": {
+          "src": "/audio/a1/female/l00-3-ca79ba19e3.mp3",
+          "duration": 114.29,
+          "bytes": 571800,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 5.97
+            },
+            {
+              "id": "s1",
+              "start": 13.08
+            },
+            {
+              "id": "s2",
+              "start": 26.12
+            },
+            {
+              "id": "s3",
+              "start": 38.79
+            },
+            {
+              "id": "s4",
+              "start": 59.05
+            },
+            {
+              "id": "s5",
+              "start": 74.04
+            },
+            {
+              "id": "s6",
+              "start": 89.34
+            },
+            {
+              "id": "s7",
+              "start": 106.51
+            }
+          ]
+        },
+        "l00-4": {
+          "src": "/audio/a1/female/l00-4-a3663b9d24.mp3",
+          "duration": 184.37,
+          "bytes": 922200,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 4.09
+            },
+            {
+              "id": "s1",
+              "start": 12.71
+            },
+            {
+              "id": "s2",
+              "start": 44.7
+            },
+            {
+              "id": "s3",
+              "start": 71.98
+            },
+            {
+              "id": "s4",
+              "start": 108.12
+            },
+            {
+              "id": "s5",
+              "start": 144.74
+            },
+            {
+              "id": "s6",
+              "start": 161.77
+            },
+            {
+              "id": "outro",
+              "start": 180.5
+            }
+          ]
+        },
+        "l01-1": {
+          "src": "/audio/a1/female/l01-1-f0bfbcb24c.mp3",
+          "duration": 111.85,
+          "bytes": 559560,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 16.91
+            },
+            {
+              "id": "s1",
+              "start": 23.74
+            },
+            {
+              "id": "s2",
+              "start": 37.54
+            },
+            {
+              "id": "s3",
+              "start": 54.11
+            },
+            {
+              "id": "s4",
+              "start": 66.76
+            },
+            {
+              "id": "s5",
+              "start": 79.44
+            },
+            {
+              "id": "s6",
+              "start": 96.27
+            }
+          ]
+        },
+        "l01-2": {
+          "src": "/audio/a1/female/l01-2-13e22007c1.mp3",
+          "duration": 97.24,
+          "bytes": 486480,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.06
+            },
+            {
+              "id": "s1",
+              "start": 8
+            },
+            {
+              "id": "s2",
+              "start": 23.57
+            },
+            {
+              "id": "s3",
+              "start": 38.73
+            },
+            {
+              "id": "s4",
+              "start": 50.77
+            },
+            {
+              "id": "s5",
+              "start": 69.07
+            },
+            {
+              "id": "s6",
+              "start": 81.06
+            }
+          ]
+        },
+        "l01-3": {
+          "src": "/audio/a1/female/l01-3-01eaa8e32c.mp3",
+          "duration": 100.55,
+          "bytes": 503040,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 2.98
+            },
+            {
+              "id": "s1",
+              "start": 11.25
+            },
+            {
+              "id": "s2",
+              "start": 24.54
+            },
+            {
+              "id": "s3",
+              "start": 37.56
+            },
+            {
+              "id": "s4",
+              "start": 49.88
+            },
+            {
+              "id": "s5",
+              "start": 72.18
+            }
+          ]
+        },
+        "l01-4": {
+          "src": "/audio/a1/female/l01-4-139fcef26d.mp3",
+          "duration": 122.26,
+          "bytes": 611640,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 2.97
+            },
+            {
+              "id": "s1",
+              "start": 11.39
+            },
+            {
+              "id": "s2",
+              "start": 27.48
+            },
+            {
+              "id": "s3",
+              "start": 46.49
+            },
+            {
+              "id": "s4",
+              "start": 56.5
+            },
+            {
+              "id": "s5",
+              "start": 66.15
+            },
+            {
+              "id": "s6",
+              "start": 87.96
+            },
+            {
+              "id": "outro",
+              "start": 118.6
+            }
+          ]
+        },
+        "l02-1": {
+          "src": "/audio/a1/female/l02-1-a26e2cfc63.mp3",
+          "duration": 107.19,
+          "bytes": 536280,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 16.27
+            },
+            {
+              "id": "s1",
+              "start": 26.3
+            },
+            {
+              "id": "s2",
+              "start": 39.33
+            },
+            {
+              "id": "s3",
+              "start": 59.75
+            },
+            {
+              "id": "s4",
+              "start": 72.54
+            },
+            {
+              "id": "s5",
+              "start": 96.37
+            }
+          ]
+        },
+        "l02-2": {
+          "src": "/audio/a1/female/l02-2-d3f5b5bd34.mp3",
+          "duration": 121.94,
+          "bytes": 609960,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.53
+            },
+            {
+              "id": "s1",
+              "start": 10.71
+            },
+            {
+              "id": "s2",
+              "start": 23.6
+            },
+            {
+              "id": "s3",
+              "start": 39.95
+            },
+            {
+              "id": "s4",
+              "start": 65.74
+            },
+            {
+              "id": "s5",
+              "start": 96.33
+            }
+          ]
+        },
+        "l02-3": {
+          "src": "/audio/a1/female/l02-3-cd13f85407.mp3",
+          "duration": 117.09,
+          "bytes": 585720,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 2.93
+            },
+            {
+              "id": "s1",
+              "start": 10.76
+            },
+            {
+              "id": "s2",
+              "start": 35.05
+            },
+            {
+              "id": "s3",
+              "start": 58.16
+            },
+            {
+              "id": "s4",
+              "start": 86.48
+            },
+            {
+              "id": "s5",
+              "start": 98.7
+            }
+          ]
+        },
+        "l02-4": {
+          "src": "/audio/a1/female/l02-4-07a5cbc6da.mp3",
+          "duration": 156.21,
+          "bytes": 781320,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 4.87
+            },
+            {
+              "id": "s1",
+              "start": 16.63
+            },
+            {
+              "id": "s2",
+              "start": 34.01
+            },
+            {
+              "id": "s3",
+              "start": 59.33
+            },
+            {
+              "id": "s4",
+              "start": 86.34
+            },
+            {
+              "id": "s5",
+              "start": 105.29
+            },
+            {
+              "id": "s6",
+              "start": 138.79
+            },
+            {
+              "id": "outro",
+              "start": 152.81
+            }
+          ]
+        },
+        "l03-1": {
+          "src": "/audio/a1/female/l03-1-636f36e6cb.mp3",
+          "duration": 143.42,
+          "bytes": 717360,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 12.17
+            },
+            {
+              "id": "s1",
+              "start": 21
+            },
+            {
+              "id": "s2",
+              "start": 33.83
+            },
+            {
+              "id": "s3",
+              "start": 53.09
+            },
+            {
+              "id": "s4",
+              "start": 74.78
+            },
+            {
+              "id": "s5",
+              "start": 91.67
+            },
+            {
+              "id": "s6",
+              "start": 118.97
+            }
+          ]
+        },
+        "l03-2": {
+          "src": "/audio/a1/female/l03-2-e4d8a04412.mp3",
+          "duration": 99.64,
+          "bytes": 498480,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.39
+            },
+            {
+              "id": "s1",
+              "start": 12.21
+            },
+            {
+              "id": "s2",
+              "start": 30.49
+            },
+            {
+              "id": "s3",
+              "start": 54.75
+            },
+            {
+              "id": "s4",
+              "start": 79.17
+            }
+          ]
+        },
+        "l03-3": {
+          "src": "/audio/a1/female/l03-3-25f3b53a72.mp3",
+          "duration": 100.91,
+          "bytes": 504840,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.61
+            },
+            {
+              "id": "s1",
+              "start": 14.22
+            },
+            {
+              "id": "s2",
+              "start": 25.77
+            },
+            {
+              "id": "s3",
+              "start": 37.84
+            },
+            {
+              "id": "s4",
+              "start": 49.01
+            },
+            {
+              "id": "s5",
+              "start": 79.59
+            }
+          ]
+        },
+        "l03-4": {
+          "src": "/audio/a1/female/l03-4-412273b733.mp3",
+          "duration": 129.47,
+          "bytes": 647640,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.27
+            },
+            {
+              "id": "s1",
+              "start": 12.78
+            },
+            {
+              "id": "s2",
+              "start": 34.24
+            },
+            {
+              "id": "s3",
+              "start": 55.77
+            },
+            {
+              "id": "s4",
+              "start": 76.16
+            },
+            {
+              "id": "s5",
+              "start": 86.12
+            },
+            {
+              "id": "s6",
+              "start": 106.39
+            },
+            {
+              "id": "outro",
+              "start": 125.77
+            }
+          ]
+        },
+        "l04-1": {
+          "src": "/audio/a1/female/l04-1-e035fd12f1.mp3",
+          "duration": 139.42,
+          "bytes": 697440,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 15.67
+            },
+            {
+              "id": "s1",
+              "start": 31.28
+            },
+            {
+              "id": "s2",
+              "start": 49.53
+            },
+            {
+              "id": "s3",
+              "start": 73.89
+            },
+            {
+              "id": "s4",
+              "start": 91.96
+            },
+            {
+              "id": "s5",
+              "start": 114.4
+            }
+          ]
+        },
+        "l04-2": {
+          "src": "/audio/a1/female/l04-2-e991ed71a8.mp3",
+          "duration": 136.55,
+          "bytes": 683040,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.56
+            },
+            {
+              "id": "s1",
+              "start": 12.31
+            },
+            {
+              "id": "s2",
+              "start": 25.3
+            },
+            {
+              "id": "s3",
+              "start": 50.37
+            },
+            {
+              "id": "s4",
+              "start": 64.01
+            },
+            {
+              "id": "s5",
+              "start": 77.08
+            },
+            {
+              "id": "s6",
+              "start": 107.28
+            }
+          ]
+        },
+        "l04-3": {
+          "src": "/audio/a1/female/l04-3-a50726d3c8.mp3",
+          "duration": 109.68,
+          "bytes": 548640,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.06
+            },
+            {
+              "id": "s1",
+              "start": 10.69
+            },
+            {
+              "id": "s2",
+              "start": 23.56
+            },
+            {
+              "id": "s3",
+              "start": 36.17
+            },
+            {
+              "id": "s4",
+              "start": 53.71
+            },
+            {
+              "id": "s5",
+              "start": 71.93
+            },
+            {
+              "id": "s6",
+              "start": 98.38
+            }
+          ]
+        },
+        "l04-4": {
+          "src": "/audio/a1/female/l04-4-d45acf4d88.mp3",
+          "duration": 121.28,
+          "bytes": 606720,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 4.4
+            },
+            {
+              "id": "s1",
+              "start": 14.08
+            },
+            {
+              "id": "s2",
+              "start": 24.35
+            },
+            {
+              "id": "s3",
+              "start": 36.5
+            },
+            {
+              "id": "s4",
+              "start": 55.58
+            },
+            {
+              "id": "s5",
+              "start": 82.58
+            },
+            {
+              "id": "s6",
+              "start": 100.55
+            },
+            {
+              "id": "outro",
+              "start": 117.48
+            }
+          ]
+        },
+        "l05-1": {
+          "src": "/audio/a1/female/l05-1-2780fd8dda.mp3",
+          "duration": 130.08,
+          "bytes": 650760,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 12.57
+            },
+            {
+              "id": "s1",
+              "start": 19.58
+            },
+            {
+              "id": "s2",
+              "start": 38.24
+            },
+            {
+              "id": "s3",
+              "start": 53.65
+            },
+            {
+              "id": "s4",
+              "start": 88.23
+            },
+            {
+              "id": "s5",
+              "start": 107.59
+            }
+          ]
+        },
+        "l05-2": {
+          "src": "/audio/a1/female/l05-2-2179ed4b94.mp3",
+          "duration": 111.41,
+          "bytes": 557280,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.65
+            },
+            {
+              "id": "s1",
+              "start": 12.69
+            },
+            {
+              "id": "s2",
+              "start": 24.67
+            },
+            {
+              "id": "s3",
+              "start": 47.47
+            },
+            {
+              "id": "s4",
+              "start": 66.36
+            },
+            {
+              "id": "s5",
+              "start": 85.42
+            }
+          ]
+        },
+        "l05-3": {
+          "src": "/audio/a1/female/l05-3-1beb2c3d04.mp3",
+          "duration": 136.73,
+          "bytes": 684000,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.82
+            },
+            {
+              "id": "s1",
+              "start": 11.85
+            },
+            {
+              "id": "s2",
+              "start": 24.28
+            },
+            {
+              "id": "s3",
+              "start": 43.7
+            },
+            {
+              "id": "s4",
+              "start": 70.74
+            },
+            {
+              "id": "s5",
+              "start": 89.84
+            },
+            {
+              "id": "s6",
+              "start": 109.76
+            }
+          ]
+        },
+        "l05-4": {
+          "src": "/audio/a1/female/l05-4-fb35bd992f.mp3",
+          "duration": 115.14,
+          "bytes": 576000,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.18
+            },
+            {
+              "id": "s1",
+              "start": 10.87
+            },
+            {
+              "id": "s2",
+              "start": 32.56
+            },
+            {
+              "id": "s3",
+              "start": 50.74
+            },
+            {
+              "id": "s4",
+              "start": 62.8
+            },
+            {
+              "id": "s5",
+              "start": 82.53
+            },
+            {
+              "id": "s6",
+              "start": 95.88
+            },
+            {
+              "id": "outro",
+              "start": 110.79
+            }
+          ]
+        },
+        "l06-1": {
+          "src": "/audio/a1/female/l06-1-e5ccc8c602.mp3",
+          "duration": 118.95,
+          "bytes": 595080,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 11.41
+            },
+            {
+              "id": "s1",
+              "start": 20.26
+            },
+            {
+              "id": "s2",
+              "start": 31.54
+            },
+            {
+              "id": "s3",
+              "start": 43.03
+            },
+            {
+              "id": "s4",
+              "start": 57.35
+            },
+            {
+              "id": "s5",
+              "start": 77.5
+            },
+            {
+              "id": "s6",
+              "start": 92.67
+            }
+          ]
+        },
+        "l06-2": {
+          "src": "/audio/a1/female/l06-2-9016a48663.mp3",
+          "duration": 103.37,
+          "bytes": 517200,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.53
+            },
+            {
+              "id": "s1",
+              "start": 12.85
+            },
+            {
+              "id": "s2",
+              "start": 32.89
+            },
+            {
+              "id": "s3",
+              "start": 49.66
+            },
+            {
+              "id": "s4",
+              "start": 66.44
+            },
+            {
+              "id": "s5",
+              "start": 87.57
+            }
+          ]
+        },
+        "l06-3": {
+          "src": "/audio/a1/female/l06-3-e430045ab1.mp3",
+          "duration": 109.17,
+          "bytes": 546120,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.07
+            },
+            {
+              "id": "s1",
+              "start": 12.42
+            },
+            {
+              "id": "s2",
+              "start": 33.24
+            },
+            {
+              "id": "s3",
+              "start": 46.7
+            },
+            {
+              "id": "s4",
+              "start": 67.15
+            },
+            {
+              "id": "s5",
+              "start": 85.5
+            }
+          ]
+        },
+        "l06-4": {
+          "src": "/audio/a1/female/l06-4-941bd5902c.mp3",
+          "duration": 121.97,
+          "bytes": 610200,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.29
+            },
+            {
+              "id": "s1",
+              "start": 13.6
+            },
+            {
+              "id": "s2",
+              "start": 28.67
+            },
+            {
+              "id": "s3",
+              "start": 43.93
+            },
+            {
+              "id": "s4",
+              "start": 68.27
+            },
+            {
+              "id": "s5",
+              "start": 82.78
+            },
+            {
+              "id": "s6",
+              "start": 97.62
+            },
+            {
+              "id": "outro",
+              "start": 118.28
+            }
+          ]
+        },
+        "l07-1": {
+          "src": "/audio/a1/female/l07-1-ee1bb66e01.mp3",
+          "duration": 136.45,
+          "bytes": 682560,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 15.22
+            },
+            {
+              "id": "s1",
+              "start": 25.02
+            },
+            {
+              "id": "s2",
+              "start": 40.43
+            },
+            {
+              "id": "s3",
+              "start": 62.98
+            },
+            {
+              "id": "s4",
+              "start": 84.52
+            },
+            {
+              "id": "s5",
+              "start": 103.76
+            },
+            {
+              "id": "s6",
+              "start": 121.06
+            }
+          ]
+        },
+        "l07-2": {
+          "src": "/audio/a1/female/l07-2-d38de3f0a7.mp3",
+          "duration": 104.55,
+          "bytes": 523080,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 4.31
+            },
+            {
+              "id": "s1",
+              "start": 14.92
+            },
+            {
+              "id": "s2",
+              "start": 27.74
+            },
+            {
+              "id": "s3",
+              "start": 40.53
+            },
+            {
+              "id": "s4",
+              "start": 60.86
+            },
+            {
+              "id": "s5",
+              "start": 79.46
+            }
+          ]
+        },
+        "l07-3": {
+          "src": "/audio/a1/female/l07-3-7b5bf5388e.mp3",
+          "duration": 97.04,
+          "bytes": 485520,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.07
+            },
+            {
+              "id": "s1",
+              "start": 12.27
+            },
+            {
+              "id": "s2",
+              "start": 23.03
+            },
+            {
+              "id": "s3",
+              "start": 43.78
+            },
+            {
+              "id": "s4",
+              "start": 61.04
+            },
+            {
+              "id": "s5",
+              "start": 74.56
+            }
+          ]
+        },
+        "l07-4": {
+          "src": "/audio/a1/female/l07-4-0c6c44c7d2.mp3",
+          "duration": 132.71,
+          "bytes": 663840,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.21
+            },
+            {
+              "id": "s1",
+              "start": 13.48
+            },
+            {
+              "id": "s2",
+              "start": 42.42
+            },
+            {
+              "id": "s3",
+              "start": 58.08
+            },
+            {
+              "id": "s4",
+              "start": 74.05
+            },
+            {
+              "id": "s5",
+              "start": 86.9
+            },
+            {
+              "id": "s6",
+              "start": 108.68
+            },
+            {
+              "id": "outro",
+              "start": 128.56
+            }
+          ]
+        },
+        "l08-1": {
+          "src": "/audio/a1/female/l08-1-e5d5e72fb0.mp3",
+          "duration": 136.79,
+          "bytes": 684240,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 13.02
+            },
+            {
+              "id": "s1",
+              "start": 21.98
+            },
+            {
+              "id": "s2",
+              "start": 40.37
+            },
+            {
+              "id": "s3",
+              "start": 64.98
+            },
+            {
+              "id": "s4",
+              "start": 86.83
+            },
+            {
+              "id": "s5",
+              "start": 108.18
+            }
+          ]
+        },
+        "l08-2": {
+          "src": "/audio/a1/female/l08-2-5815785f15.mp3",
+          "duration": 123.41,
+          "bytes": 617400,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.7
+            },
+            {
+              "id": "s1",
+              "start": 11.62
+            },
+            {
+              "id": "s2",
+              "start": 30.46
+            },
+            {
+              "id": "s3",
+              "start": 50.85
+            },
+            {
+              "id": "s4",
+              "start": 71.49
+            },
+            {
+              "id": "s5",
+              "start": 95.62
+            },
+            {
+              "id": "s6",
+              "start": 110.7
+            }
+          ]
+        },
+        "l08-3": {
+          "src": "/audio/a1/female/l08-3-2133b703cb.mp3",
+          "duration": 134.53,
+          "bytes": 672960,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.75
+            },
+            {
+              "id": "s1",
+              "start": 12.68
+            },
+            {
+              "id": "s2",
+              "start": 25.88
+            },
+            {
+              "id": "s3",
+              "start": 46.17
+            },
+            {
+              "id": "s4",
+              "start": 63.95
+            },
+            {
+              "id": "s5",
+              "start": 98
+            },
+            {
+              "id": "s6",
+              "start": 111.92
+            }
+          ]
+        },
+        "l08-4": {
+          "src": "/audio/a1/female/l08-4-148c158e79.mp3",
+          "duration": 113.02,
+          "bytes": 565440,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.56
+            },
+            {
+              "id": "s1",
+              "start": 13.81
+            },
+            {
+              "id": "s2",
+              "start": 33.08
+            },
+            {
+              "id": "s3",
+              "start": 49.93
+            },
+            {
+              "id": "s4",
+              "start": 64.27
+            },
+            {
+              "id": "s5",
+              "start": 80.12
+            },
+            {
+              "id": "s6",
+              "start": 93.57
+            },
+            {
+              "id": "outro",
+              "start": 109.3
+            }
+          ]
+        },
+        "l09-1": {
+          "src": "/audio/a1/female/l09-1-1b9e3b20ea.mp3",
+          "duration": 131.69,
+          "bytes": 658800,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 11.7
+            },
+            {
+              "id": "s1",
+              "start": 22.37
+            },
+            {
+              "id": "s2",
+              "start": 41.06
+            },
+            {
+              "id": "s3",
+              "start": 54.05
+            },
+            {
+              "id": "s4",
+              "start": 69.65
+            },
+            {
+              "id": "s5",
+              "start": 92.36
+            },
+            {
+              "id": "s6",
+              "start": 116.76
+            }
+          ]
+        },
+        "l09-2": {
+          "src": "/audio/a1/female/l09-2-b78bbbb679.mp3",
+          "duration": 120.29,
+          "bytes": 601800,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.64
+            },
+            {
+              "id": "s1",
+              "start": 14.89
+            },
+            {
+              "id": "s2",
+              "start": 39.81
+            },
+            {
+              "id": "s3",
+              "start": 58.07
+            },
+            {
+              "id": "s4",
+              "start": 82.07
+            },
+            {
+              "id": "s5",
+              "start": 94.87
+            }
+          ]
+        },
+        "l09-3": {
+          "src": "/audio/a1/female/l09-3-d7d46506d1.mp3",
+          "duration": 113.31,
+          "bytes": 566880,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.33
+            },
+            {
+              "id": "s1",
+              "start": 11.3
+            },
+            {
+              "id": "s2",
+              "start": 37.39
+            },
+            {
+              "id": "s3",
+              "start": 52.3
+            },
+            {
+              "id": "s4",
+              "start": 76.69
+            },
+            {
+              "id": "s5",
+              "start": 97.89
+            }
+          ]
+        },
+        "l09-4": {
+          "src": "/audio/a1/female/l09-4-6eebfa1b3b.mp3",
+          "duration": 115.18,
+          "bytes": 576240,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.15
+            },
+            {
+              "id": "s1",
+              "start": 10.43
+            },
+            {
+              "id": "s2",
+              "start": 30.92
+            },
+            {
+              "id": "s3",
+              "start": 52.87
+            },
+            {
+              "id": "s4",
+              "start": 75.79
+            },
+            {
+              "id": "s5",
+              "start": 88.29
+            },
+            {
+              "id": "outro",
+              "start": 111.4
+            }
+          ]
+        },
+        "l10-1": {
+          "src": "/audio/a1/female/l10-1-7777987f14.mp3",
+          "duration": 130.88,
+          "bytes": 654720,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 17.08
+            },
+            {
+              "id": "s1",
+              "start": 25.85
+            },
+            {
+              "id": "s2",
+              "start": 39.69
+            },
+            {
+              "id": "s3",
+              "start": 68.38
+            },
+            {
+              "id": "s4",
+              "start": 90.19
+            },
+            {
+              "id": "s5",
+              "start": 115.76
+            }
+          ]
+        },
+        "l10-2": {
+          "src": "/audio/a1/female/l10-2-310003f729.mp3",
+          "duration": 112.34,
+          "bytes": 562080,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 4.37
+            },
+            {
+              "id": "s1",
+              "start": 17.18
+            },
+            {
+              "id": "s2",
+              "start": 31.94
+            },
+            {
+              "id": "s3",
+              "start": 44.91
+            },
+            {
+              "id": "s4",
+              "start": 70.75
+            },
+            {
+              "id": "s5",
+              "start": 93.3
+            }
+          ]
+        },
+        "l10-3": {
+          "src": "/audio/a1/female/l10-3-91c013c71d.mp3",
+          "duration": 141.32,
+          "bytes": 706920,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.57
+            },
+            {
+              "id": "s1",
+              "start": 12.14
+            },
+            {
+              "id": "s2",
+              "start": 34.14
+            },
+            {
+              "id": "s3",
+              "start": 50.62
+            },
+            {
+              "id": "s4",
+              "start": 67.37
+            },
+            {
+              "id": "s5",
+              "start": 101.76
+            },
+            {
+              "id": "s6",
+              "start": 116.26
+            }
+          ]
+        },
+        "l10-4": {
+          "src": "/audio/a1/female/l10-4-d5b9a02989.mp3",
+          "duration": 137.36,
+          "bytes": 687120,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 4.15
+            },
+            {
+              "id": "s1",
+              "start": 14.38
+            },
+            {
+              "id": "s2",
+              "start": 30.67
+            },
+            {
+              "id": "s3",
+              "start": 45.61
+            },
+            {
+              "id": "s4",
+              "start": 60.72
+            },
+            {
+              "id": "s5",
+              "start": 80.07
+            },
+            {
+              "id": "s6",
+              "start": 102.18
+            },
+            {
+              "id": "outro",
+              "start": 133.5
+            }
+          ]
+        },
+        "l11-1": {
+          "src": "/audio/a1/female/l11-1-a6a40ec15f.mp3",
+          "duration": 126.22,
+          "bytes": 631440,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 15.06
+            },
+            {
+              "id": "s1",
+              "start": 23.93
+            },
+            {
+              "id": "s2",
+              "start": 40.52
+            },
+            {
+              "id": "s3",
+              "start": 62.31
+            },
+            {
+              "id": "s4",
+              "start": 81.9
+            },
+            {
+              "id": "s5",
+              "start": 99.9
+            }
+          ]
+        },
+        "l11-2": {
+          "src": "/audio/a1/female/l11-2-a3672ea348.mp3",
+          "duration": 158.62,
+          "bytes": 793440,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.18
+            },
+            {
+              "id": "s1",
+              "start": 12.53
+            },
+            {
+              "id": "s2",
+              "start": 33.12
+            },
+            {
+              "id": "s3",
+              "start": 50.27
+            },
+            {
+              "id": "s4",
+              "start": 62.69
+            },
+            {
+              "id": "s5",
+              "start": 77.86
+            },
+            {
+              "id": "s6",
+              "start": 99.16
+            },
+            {
+              "id": "s7",
+              "start": 125.98
+            }
+          ]
+        },
+        "l11-3": {
+          "src": "/audio/a1/female/l11-3-22d0b6afe4.mp3",
+          "duration": 93.24,
+          "bytes": 466560,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.14
+            },
+            {
+              "id": "s1",
+              "start": 12.11
+            },
+            {
+              "id": "s2",
+              "start": 27.5
+            },
+            {
+              "id": "s3",
+              "start": 50.8
+            },
+            {
+              "id": "s4",
+              "start": 64.72
+            },
+            {
+              "id": "s5",
+              "start": 80.64
+            }
+          ]
+        },
+        "l11-4": {
+          "src": "/audio/a1/female/l11-4-902a4d2e1e.mp3",
+          "duration": 105.74,
+          "bytes": 528960,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.36
+            },
+            {
+              "id": "s1",
+              "start": 15.99
+            },
+            {
+              "id": "s2",
+              "start": 37.58
+            },
+            {
+              "id": "s3",
+              "start": 49.87
+            },
+            {
+              "id": "s4",
+              "start": 64.62
+            },
+            {
+              "id": "s5",
+              "start": 83.6
+            },
+            {
+              "id": "outro",
+              "start": 101.52
+            }
+          ]
+        },
+        "l12-1": {
+          "src": "/audio/a1/female/l12-1-2285bd0e2c.mp3",
+          "duration": 161.28,
+          "bytes": 806760,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 14.4
+            },
+            {
+              "id": "s1",
+              "start": 25.82
+            },
+            {
+              "id": "s2",
+              "start": 39.49
+            },
+            {
+              "id": "s3",
+              "start": 64.68
+            },
+            {
+              "id": "s4",
+              "start": 98.26
+            },
+            {
+              "id": "s5",
+              "start": 125.83
+            },
+            {
+              "id": "s6",
+              "start": 149.83
+            }
+          ]
+        },
+        "l12-2": {
+          "src": "/audio/a1/female/l12-2-ec633dc220.mp3",
+          "duration": 142.15,
+          "bytes": 711000,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.5
+            },
+            {
+              "id": "s1",
+              "start": 10.81
+            },
+            {
+              "id": "s2",
+              "start": 36.77
+            },
+            {
+              "id": "s3",
+              "start": 61.98
+            },
+            {
+              "id": "s4",
+              "start": 83.13
+            },
+            {
+              "id": "s5",
+              "start": 111.23
+            },
+            {
+              "id": "s6",
+              "start": 127.55
+            }
+          ]
+        },
+        "l12-3": {
+          "src": "/audio/a1/female/l12-3-5ac5c87b07.mp3",
+          "duration": 113.99,
+          "bytes": 570240,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.5
+            },
+            {
+              "id": "s1",
+              "start": 14.39
+            },
+            {
+              "id": "s2",
+              "start": 27.63
+            },
+            {
+              "id": "s3",
+              "start": 45.13
+            },
+            {
+              "id": "s4",
+              "start": 62.65
+            },
+            {
+              "id": "s5",
+              "start": 83.69
+            }
+          ]
+        },
+        "l12-4": {
+          "src": "/audio/a1/female/l12-4-803ba52a75.mp3",
+          "duration": 116.43,
+          "bytes": 582480,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.28
+            },
+            {
+              "id": "s1",
+              "start": 11.82
+            },
+            {
+              "id": "s2",
+              "start": 24.2
+            },
+            {
+              "id": "s3",
+              "start": 41.64
+            },
+            {
+              "id": "s4",
+              "start": 54.52
+            },
+            {
+              "id": "s5",
+              "start": 75.75
+            },
+            {
+              "id": "outro",
+              "start": 112.53
+            }
+          ]
+        },
+        "l13-1": {
+          "src": "/audio/a1/female/l13-1-5221a19e25.mp3",
+          "duration": 135.96,
+          "bytes": 680040,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 14.81
+            },
+            {
+              "id": "s1",
+              "start": 21.94
+            },
+            {
+              "id": "s2",
+              "start": 45.16
+            },
+            {
+              "id": "s3",
+              "start": 66.77
+            },
+            {
+              "id": "s4",
+              "start": 81
+            },
+            {
+              "id": "s5",
+              "start": 95.22
+            },
+            {
+              "id": "s6",
+              "start": 125.12
+            }
+          ]
+        },
+        "l13-2": {
+          "src": "/audio/a1/female/l13-2-fc02ba367e.mp3",
+          "duration": 127.3,
+          "bytes": 636840,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.51
+            },
+            {
+              "id": "s1",
+              "start": 13.33
+            },
+            {
+              "id": "s2",
+              "start": 41.51
+            },
+            {
+              "id": "s3",
+              "start": 60.64
+            },
+            {
+              "id": "s4",
+              "start": 83.08
+            },
+            {
+              "id": "s5",
+              "start": 108.65
+            }
+          ]
+        },
+        "l13-3": {
+          "src": "/audio/a1/female/l13-3-36b4084ad8.mp3",
+          "duration": 107.84,
+          "bytes": 539520,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 2.9
+            },
+            {
+              "id": "s1",
+              "start": 13.52
+            },
+            {
+              "id": "s2",
+              "start": 27.02
+            },
+            {
+              "id": "s3",
+              "start": 44.47
+            },
+            {
+              "id": "s4",
+              "start": 64.09
+            },
+            {
+              "id": "s5",
+              "start": 74
+            },
+            {
+              "id": "s6",
+              "start": 94.4
+            }
+          ]
+        },
+        "l13-4": {
+          "src": "/audio/a1/female/l13-4-941ce940a4.mp3",
+          "duration": 143.66,
+          "bytes": 718560,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 4.05
+            },
+            {
+              "id": "s1",
+              "start": 14.07
+            },
+            {
+              "id": "s2",
+              "start": 36.44
+            },
+            {
+              "id": "s3",
+              "start": 70.39
+            },
+            {
+              "id": "s4",
+              "start": 103.2
+            },
+            {
+              "id": "s5",
+              "start": 123.64
+            },
+            {
+              "id": "outro",
+              "start": 139.63
+            }
+          ]
+        },
+        "l14-1": {
+          "src": "/audio/a1/female/l14-1-8c2aa96654.mp3",
+          "duration": 115.4,
+          "bytes": 577320,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 14.87
+            },
+            {
+              "id": "s1",
+              "start": 25.19
+            },
+            {
+              "id": "s2",
+              "start": 43.09
+            },
+            {
+              "id": "s3",
+              "start": 65.75
+            },
+            {
+              "id": "s4",
+              "start": 76.99
+            },
+            {
+              "id": "s5",
+              "start": 102.46
+            }
+          ]
+        },
+        "l14-2": {
+          "src": "/audio/a1/female/l14-2-a748141cc3.mp3",
+          "duration": 108.01,
+          "bytes": 540360,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.16
+            },
+            {
+              "id": "s1",
+              "start": 9.78
+            },
+            {
+              "id": "s2",
+              "start": 34.95
+            },
+            {
+              "id": "s3",
+              "start": 57.96
+            },
+            {
+              "id": "s4",
+              "start": 72.7
+            },
+            {
+              "id": "s5",
+              "start": 92.87
+            }
+          ]
+        },
+        "l14-3": {
+          "src": "/audio/a1/female/l14-3-154156ab7d.mp3",
+          "duration": 110.5,
+          "bytes": 552840,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.71
+            },
+            {
+              "id": "s1",
+              "start": 16.65
+            },
+            {
+              "id": "s2",
+              "start": 32.52
+            },
+            {
+              "id": "s3",
+              "start": 46.83
+            },
+            {
+              "id": "s4",
+              "start": 63.89
+            },
+            {
+              "id": "s5",
+              "start": 86.52
+            }
+          ]
+        },
+        "l14-4": {
+          "src": "/audio/a1/female/l14-4-1135e7a002.mp3",
+          "duration": 124.9,
+          "bytes": 624840,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.42
+            },
+            {
+              "id": "s1",
+              "start": 12.05
+            },
+            {
+              "id": "s2",
+              "start": 30.45
+            },
+            {
+              "id": "s3",
+              "start": 52.76
+            },
+            {
+              "id": "s4",
+              "start": 75.45
+            },
+            {
+              "id": "s5",
+              "start": 95.48
+            },
+            {
+              "id": "outro",
+              "start": 120.83
+            }
+          ]
+        },
+        "l15-1": {
+          "src": "/audio/a1/female/l15-1-f35bdff0f1.mp3",
+          "duration": 145.46,
+          "bytes": 727560,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 16.99
+            },
+            {
+              "id": "s1",
+              "start": 29.03
+            },
+            {
+              "id": "s2",
+              "start": 39.63
+            },
+            {
+              "id": "s3",
+              "start": 71.29
+            },
+            {
+              "id": "s4",
+              "start": 117.72
+            }
+          ]
+        },
+        "l15-2": {
+          "src": "/audio/a1/female/l15-2-a6506f6466.mp3",
+          "duration": 121.93,
+          "bytes": 609960,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.01
+            },
+            {
+              "id": "s1",
+              "start": 13.54
+            },
+            {
+              "id": "s2",
+              "start": 26.7
+            },
+            {
+              "id": "s3",
+              "start": 39.28
+            },
+            {
+              "id": "s4",
+              "start": 59.68
+            },
+            {
+              "id": "s5",
+              "start": 86.8
+            }
+          ]
+        },
+        "l15-3": {
+          "src": "/audio/a1/female/l15-3-cd50810925.mp3",
+          "duration": 109.53,
+          "bytes": 547920,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 2.82
+            },
+            {
+              "id": "s1",
+              "start": 14.27
+            },
+            {
+              "id": "s2",
+              "start": 23.05
+            },
+            {
+              "id": "s3",
+              "start": 53.15
+            },
+            {
+              "id": "s4",
+              "start": 70.52
+            },
+            {
+              "id": "s5",
+              "start": 85.6
+            }
+          ]
+        },
+        "l15-4": {
+          "src": "/audio/a1/female/l15-4-ad6cdd3d3a.mp3",
+          "duration": 145.46,
+          "bytes": 727560,
+          "cues": [
+            {
+              "id": "intro",
+              "start": 0
+            },
+            {
+              "id": "s0",
+              "start": 3.65
+            },
+            {
+              "id": "s1",
+              "start": 14.17
+            },
+            {
+              "id": "s2",
+              "start": 41.16
+            },
+            {
+              "id": "s3",
+              "start": 64.7
+            },
+            {
+              "id": "s4",
+              "start": 89
+            },
+            {
+              "id": "s5",
+              "start": 116.29
+            },
+            {
+              "id": "s6",
+              "start": 130.23
+            },
+            {
+              "id": "outro",
+              "start": 141.01
+            }
+          ]
+        }
+      }
+    }
+  }
+}

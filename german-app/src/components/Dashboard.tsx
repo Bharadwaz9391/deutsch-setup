@@ -2,9 +2,12 @@
 
 import Link from "next/link";
 import { useSyncExternalStore } from "react";
-import { A1_SYLLABUS, A1_TOTAL_LESSONS } from "@/content/a1/syllabus";
+import { A1_TOTAL_LESSONS } from "@/content/a1/syllabus";
 import { MILESTONES } from "@/content/milestones";
+import { COURSE, lessonAudio } from "@/lib/course";
+import { useCompletedLessons } from "@/lib/progress";
 import { useSettings } from "@/lib/settings";
+import { usePlayer } from "./player/PlayerProvider";
 
 const noopSubscribe = () => () => {};
 
@@ -23,7 +26,7 @@ function dailyPlan(hours: number) {
   const speaking = Math.min(120, Math.max(60, Math.round(total * 0.5)));
   const lesson = Math.max(20, total - test - vocab - speaking);
   return [
-    { icon: "📘", title: "Lesson", minutes: lesson, ready: "Tue" },
+    { icon: "🎧", title: "Listen to lessons", minutes: lesson, ready: null },
     { icon: "🃏", title: "Vocabulary review", minutes: vocab, ready: "Sat" },
     { icon: "🎙️", title: "Speaking with your AI teacher", minutes: speaking, ready: "Thu" },
     { icon: "✅", title: "Quick test", minutes: test, ready: "Sat" },
@@ -37,9 +40,17 @@ export function Dashboard() {
   const hello = greeting(hour);
 
   const plan = dailyPlan(settings.dailyHours);
-  const completedLessons = 0; // progress tracking arrives with lessons (Tue)
+  const player = usePlayer();
+  const done = useCompletedLessons();
+  const completedLessons = done.length;
   const pct = Math.round((completedLessons / A1_TOTAL_LESSONS) * 100);
-  const next = A1_SYLLABUS[0];
+  // Continue where the player is, else the first unfinished lesson.
+  const next =
+    player.lesson ??
+    COURSE.find((l) => !done.includes(l.id) && lessonAudio(l.id, settings.voice)) ??
+    COURSE.find((l) => !done.includes(l.id)) ??
+    COURSE[0];
+  const canPlay = Boolean(lessonAudio(next.id, settings.voice));
 
   return (
     <div className="space-y-5">
@@ -62,12 +73,27 @@ export function Dashboard() {
         <div className="mt-3 h-2 overflow-hidden rounded-full bg-slate-700" role="progressbar" aria-valuenow={pct} aria-valuemin={0} aria-valuemax={100}>
           <div className="h-full rounded-full bg-amber-400" style={{ width: `${Math.max(pct, 2)}%` }} />
         </div>
-        <Link href={`/course/${next.id}`} className="mt-4 flex items-center justify-between rounded-xl bg-white/10 px-3 py-2.5 text-sm">
-          <span>
-            Next: <strong>{next.titleDe}</strong>
-          </span>
-          <span aria-hidden>→</span>
-        </Link>
+        <div className="mt-4 flex items-center gap-2">
+          {canPlay && (
+            <button
+              type="button"
+              onClick={() => (player.lesson?.id === next.id ? player.toggle() : player.play(next.id))}
+              aria-label={player.playing ? "Pause" : "Play"}
+              className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-amber-400 text-lg text-slate-900 active:scale-95"
+            >
+              {player.playing ? "⏸" : "▶"}
+            </button>
+          )}
+          <Link href={`/course/${next.module.id}`} className="flex min-w-0 flex-1 items-center justify-between rounded-xl bg-white/10 px-3 py-2.5 text-sm">
+            <span className="min-w-0 truncate">
+              {player.lesson ? "Continue" : "Next"}: <strong>Modul {next.module.number} · Lektion {next.index + 1}</strong>{" "}
+              <span lang="de" className="text-slate-300">
+                {next.titleDe}
+              </span>
+            </span>
+            <span aria-hidden>→</span>
+          </Link>
+        </div>
       </section>
 
       {/* Today's plan */}
@@ -86,9 +112,11 @@ export function Dashboard() {
                 <p className="text-sm font-medium text-slate-800">{p.title}</p>
                 <p className="text-xs text-slate-500">{p.minutes} min</p>
               </div>
-              <span className="rounded-full bg-slate-100 px-2 py-0.5 text-[10px] font-semibold text-slate-500">
-                ready {p.ready}
-              </span>
+              {p.ready && (
+                <span className="rounded-full bg-slate-100 px-2 py-0.5 text-[10px] font-semibold text-slate-500">
+                  ready {p.ready}
+                </span>
+              )}
             </li>
           ))}
         </ul>

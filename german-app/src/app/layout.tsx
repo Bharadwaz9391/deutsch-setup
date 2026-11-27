@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import { Suspense } from "react";
 import { BottomNav } from "@/components/BottomNav";
+import { MiniPlayer } from "@/components/player/MiniPlayer";
+import { PlayerProvider } from "@/components/player/PlayerProvider";
 import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister";
 import "./globals.css";
 
@@ -27,10 +29,13 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="en" className="h-full antialiased">
       <body className="min-h-full bg-slate-50 text-slate-900">
         <div className="h-1 w-full bg-[linear-gradient(90deg,#000_0_33%,#dd0000_33%_66%,#ffce00_66%)]" aria-hidden />
-        <main className="mx-auto max-w-md px-4 pb-28 pt-5">{children}</main>
-        <Suspense fallback={null}>
-          <BottomNav />
-        </Suspense>
+        <PlayerProvider>
+          <main className="mx-auto max-w-md px-4 pb-44 pt-5">{children}</main>
+          <MiniPlayer />
+          <Suspense fallback={null}>
+            <BottomNav />
+          </Suspense>
+        </PlayerProvider>
         <ServiceWorkerRegister />
       </body>
     </html>
