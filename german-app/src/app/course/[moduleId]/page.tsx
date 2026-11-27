@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 import { ListenButton } from "@/components/ListenButton";
 import { TriText } from "@/components/TriText";
 import { A1_SYLLABUS, getModule } from "@/content/a1/syllabus";
@@ -23,17 +24,44 @@ function Section({ title, children }: { title: string; children: React.ReactNode
   );
 }
 
-export default async function ModulePage({ params }: PageProps<"/course/[moduleId]">) {
-  const { moduleId } = await params;
-  const m = getModule(moduleId);
-  if (!m) notFound();
-
+// The back link is the same for every module, so it stays in the shared App Shell.
+// Everything that depends on the URL (`params`) streams in behind <Suspense>.
+export default function ModulePage({ params }: PageProps<"/course/[moduleId]">) {
   return (
     <div className="space-y-4">
       <Link href="/course" className="text-sm text-slate-500">
         ← All modules
       </Link>
 
+      <Suspense fallback={<ModuleSkeleton />}>
+        <ModuleContent params={params} />
+      </Suspense>
+    </div>
+  );
+}
+
+function ModuleSkeleton() {
+  return (
+    <div className="animate-pulse space-y-4" aria-busy="true" aria-label="Loading module">
+      <div className="space-y-3">
+        <div className="h-3 w-32 rounded bg-slate-200" />
+        <div className="h-7 w-2/3 rounded bg-slate-200" />
+        <div className="h-4 w-full rounded bg-slate-100" />
+        <div className="h-4 w-5/6 rounded bg-slate-100" />
+      </div>
+      <div className="h-32 rounded-2xl bg-slate-100" />
+      <div className="h-48 rounded-2xl bg-slate-100" />
+    </div>
+  );
+}
+
+async function ModuleContent({ params }: Pick<PageProps<"/course/[moduleId]">, "params">) {
+  const { moduleId } = await params;
+  const m = getModule(moduleId);
+  if (!m) notFound();
+
+  return (
+    <div className="space-y-4">
       <header className="space-y-3">
         <p className="text-xs font-semibold uppercase tracking-wide text-amber-700">
           {m.part} · Module {m.number}
